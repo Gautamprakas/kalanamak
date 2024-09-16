@@ -8,18 +8,22 @@ export default function TextForm(props){
 		let newText=text.toUpperCase();
 		setText(newText);
 		// console.log("upper case was clicked");
+		props.showAlert('Converted to UpperCase','primary');
 	};
 	const handleLoClick=()=>{
 		setText(text.toLowerCase());
+		props.showAlert('Converted to LowerCase','primary');
 	};
 	const handleResetClick=()=>{
 		setText('');
+		props.showAlert('Text is  copied to clipboard..','danger');
 	};
 	const handleCopy=()=>{
 		//console.log('I am copy');
 		var textElement=document.getElementById('textArea');
 		textElement.select();
 		navigator.clipboard.writeText(textElement.value);
+		props.showAlert('Text is copy','success');
 	}
 	const handleOnChange=(event)=>{
 		setText(event.target.value);
