@@ -29,6 +29,12 @@ export default function TextForm(props){
 		setText(event.target.value);
 		// console.log("On change");
 	};
+	const findWordCountInStr=(str)=>{
+		if(str==""){
+			return 0;
+		}
+		return str.trim().split(" ").length;
+	};
 	return (
 		<>
 			<div className="container my-8" style={{color:props.mode=='dark'? 'white':'black'}}>
@@ -52,7 +58,7 @@ export default function TextForm(props){
 			</div>
 			<div className="container my-3" style={{color:props.mode=='dark'? 'white':'black'}}>
 				<h2>Your Text Summary</h2>
-				<p><b>{text.split(" ").length -1} </b> words found, <b> {text.length} </b> characters found</p>
+				<p><b>{findWordCountInStr(text)} </b> words found, <b> {text.length} </b> characters found</p>
 			</div>
 			<div className="container my-3" style={{color:props.mode=='dark'? 'white':'black'}}>
 				<h2>Preview</h2>
