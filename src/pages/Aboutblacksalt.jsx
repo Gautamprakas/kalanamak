@@ -27,8 +27,8 @@ const Aboutblacksalt = () => {
           </h2>
           <p
             className=' pt-1 md:text-lg'>
-            Black salt paddy is being produced in district Siddharthnagar since ancient times. Its cultivation is being
-            done in Siddharthnagar since Buddha's time (600 BC). Apart from being aromatic, black salt rice is full of nutrients, due to which its demand has been
+            Buddha Rice (Kalanamak Rice) rice is being produced in district Siddharthnagar since ancient times. Its cultivation is being
+            done in Siddharthnagar since Buddha's time (600 BC). Apart from being aromatic,Buddha Rice (Kalanamak Rice) rice is full of nutrients, due to which its demand has been
             increasing in the country and outside the country.
           </p>
 
@@ -39,7 +39,7 @@ const Aboutblacksalt = () => {
             </h2>
             <p
               className=' pt-1 md:text-lg'>
-              For black salt, the area between 27° 28' north latitude and 82° 45' to 83° 10' east longitudein
+              For Buddha Rice (Kalanamak Rice), the area between 27° 28' north latitude and 82° 45' to 83° 10' east longitudein
               UttarPradesh is considered suitable. District Siddharth Nagar as well as variousblocks of nearby districts and Panchpedwa and Gasdi
               block of Balrampur, Ramnagar of Basti, Rudhauli block, Santh block of Santakbirnagar, PPganj blockof Gorakhpur and Nichlaul, Farenda, Brijmanganj blockof Maharajganj district are included.
             </p>
@@ -54,10 +54,10 @@ const Aboutblacksalt = () => {
         </h2>
         <p
           className=' pt-1 md:text-lg'>
-          Zinc and iron elements are found in black salt rice. Those who have the ability to fight against many diseases.
-          Black salt rice is softer than Basmati. In 2013, Buddha Rice (Kalanamak Rice) was selected under the Nutrifarm scheme by the Government of India to fight malnutrition.
+          Zinc and iron elements are found in Buddha Rice (Kalanamak Rice) rice. Those who have the ability to fight against many diseases.
+          Buddha Rice (Kalanamak Rice) rice is softer than Basmati. In 2013, Buddha Rice (Kalanamak Rice) was selected under the Nutrifarm scheme by the Government of India to fight malnutrition.
           If Buddha Rice (Kalanamak Rice) is compared with the hybrid species, the hybrid variety produces 30 quintals of rice, while the traditional variety Kalanamak produces 19 quintals of rice.
-          When the price of normal rice is Rs.30 per kg, Rs.90,000 per hectare, while 19 kg of black salt rice is available at the rate of Rs.110 per kg, Rs.209,000 per hectare. In this way,
+          When the price of normal rice is Rs.30 per kg, Rs.90,000 per hectare, while 19 kg of Buddha Rice (Kalanamak Rice) rice is available at the rate of Rs.110 per kg, Rs.209,000 per hectare. In this way,
           Rs 119000-00 more per hectare is obtained from Buddha Rice (Kalanamak Rice) as compared to normal/hybrid variety. (In Kalanamak variety up to 70 percent rice)
         </p>
       </div>
@@ -84,7 +84,7 @@ const Aboutblacksalt = () => {
             The rice festival event is being organised so as to promote, market and brand the selected products as
             One District One Product under the ‘Atmanirbhar Bharat Abhiyan’ and ‘Local for Vocal’ campaign. The Kala Namak Rice is grown in this region
             and is One District One Product of some of the Eastern UP districts. Thus, those who attended the festival
-            would be able to taste dishes made with Kala Namak rice. They can purchase Kala Namak paddy seeds and rice from these stalls.
+            would be able to taste dishes made with Kala Namak rice. They can purchase Kala Namak rice seeds and rice from these stalls.
           </p>
         </div>
 

@@ -29,7 +29,7 @@ const Methods = () => {
                     Preparation of Nursery
                 </h2>
                 <li className='md:text-lg'>
-                    Preparation of One Mandy Nursery is required for sowing One Bigha of paddy.
+                    Preparation of One Mandy Nursery is required for sowing One Bigha of rice.
                 </li>
                 <li className='md:text-lg'>
                     The field needs to be irrigated once to keep the soil cool.
@@ -54,14 +54,14 @@ const Methods = () => {
                 <p className='pt-1 md:text-lg' >
                     Before the seeds are sown requisite treatment for pest resistance & control should
                     be done to keep the seeds safe & free from diseases that manifest in at this stage.
-                    Kalanamak Paddy seed is treated with "Trycoderma" and cow urine.
+                    Kalanamak Rice seed is treated with "Trycoderma" and cow urine.
                 </p>
                 <li className='md:text-lg'>
-                    5 kg paddy seed is treated with 3 gms of Trycoderma Powder with proper
+                    5 kg rice seed is treated with 3 gms of Trycoderma Powder with proper
                     dilution using water.
                 </li>
                 <li className='md:text-lg'>
-                    The Treated Paddy seed is kept for 24 hours.
+                    The Treated Rice seed is kept for 24 hours.
                 </li>
                 <li className='md:text-lg'>
                     After 24 hours the treated seeds are to be placed in a coconut sack with some heavy object on it.

@@ -41,7 +41,7 @@ const Home = () => {
             located at Nepal border. Aligarhwa has been identified as the real kapilvastu, the
             Kingdom of king Shuddodhan, father of Lord Buddha. Shudedodhan, as the name
             suggests, means pure rice. Aligarhwa in the foothills of the Himalayas is considered the
-            paddy bowl. During excavation carbonized rice grains resembling Buddha Rice (Kalanamak Rice) were
+            rice bowl. During excavation carbonized rice grains resembling Buddha Rice (Kalanamak Rice) were
             recovered from one of the rooms, which was supposed to be the kitchen store.
           </p>
         </div>
@@ -87,7 +87,7 @@ const Home = () => {
             >Gram Pradhan, Niyao, Shoratgarh, Siddharth Nagar <span className='font-semibold'>(Prime Minister Excellence award for Kalanamak)</span>.
             </li>
             <li className='md:pt-1'>
-              Kalanamak Cented Paddy Production And Conservation Society Siddharth Nagar.
+              Kalanamak Cented Rice Production And Conservation Society Siddharth Nagar.
             </li>
             <li className='md:pt-1'>
               Krishi Vigyan Kendra, Sohana, Siddharth Nagar

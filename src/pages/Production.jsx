@@ -9,8 +9,8 @@ const Production = () => {
                     Production of Buddha Rice (Kalanamak Rice)
                 </h1>
                 <p className='pt-1 md:text-lg'>
-                    Where earlier black salt was cultivated in an area of about 22000 hectares in district Siddharth Nagar, due to low production in the course of time,
-                    gradually the farmers got disillusioned with its cultivation, and in its place other varieties of paddy were cultivated. After this, from the year
+                    Where earlier Buddha Rice (Kalanamak Rice) was cultivated in an area of about 22000 hectares in district Siddharth Nagar, due to low production in the course of time,
+                    gradually the farmers got disillusioned with its cultivation, and in its place other varieties of rice were cultivated. After this, from the year
                     2017, the Agriculture Department and the Government organized demonstrations, seminars, farmers  Various efforts were made to increase the area of
                     Buddha Rice (Kalanamak Rice) in the district through scientific dialogue, KisanMela etc., due to which it has increased from 2715 hectares in the year 2018 to 17000
                     hectares in the year 2023.
@@ -70,22 +70,22 @@ const Production = () => {
 
             <div className='my-2  md:my-4'>
                 <h2 className='font-semibold text-xl py-1 border-b-[#af7501] border-b text-[#0f5f17] capitalize'>
-                    Meaningful initiative to promote black salt production by the district
+                    Meaningful initiative to promote Buddha Rice (Kalanamak Rice) production by the district
                 </h2>
                 <p className='pt-1 md:text-lg'>
-                    In order to make the seeds of black salt easily available to the farmers at a subsidized rate, in the year 2020-21, certified seeds of
-                    black salt were produced on an area of 04 hectares in the state agriculture area of the district, from which a total of 80 ku 0 seeds
-                    have been obtained. Similarly, in the year 2022-23, 180 quintal certified seeds of black salt were produced on 10 hectare area in the
+                    In order to make the seeds of Buddha Rice (Kalanamak Rice) easily available to the farmers at a subsidized rate, in the year 2020-21, certified seeds of
+                    Buddha Rice (Kalanamak Rice) were produced on an area of 04 hectares in the state agriculture area of the district, from which a total of 80 ku 0 seeds
+                    have been obtained. Similarly, in the year 2022-23, 180 quintal certified seeds of Buddha Rice (Kalanamak Rice) were produced on 10 hectare area in the
                     state agriculture sector. The distribution of this seed has been made available to the farmers on subsidy through the State Agricultural
                     Seed Stores.This year's Kalanamak, other progressive varieties like KalanamakKiran, APJ.106, APJ.03, Dwarf Kalanamak, were developed as
                     trials in different fields. This year, Pusa Narendra-1638 and Pusa Narendra-1652 varieties have been developed with the joint efforts of
                     the scientists of the Indian Council of Agricultural Research, New Delhi and Acharya NarendraDev Agricultural University, KumarganjFaizabad,
                     which have been tested by KrishiVigyan Kendra,Sohna for various farmers of the district. Trial has been done in the field.Their productivity
-                    is 38-42 quintals per hectare, which is 2.5 times more than the traditional black salt species. To increase the area under black salt in Kharif
+                    is 38-42 quintals per hectare, which is 2.5 times more than the traditional Buddha Rice (Kalanamak Rice) species. To increase the area under Buddha Rice (Kalanamak Rice) in Kharif
                     this year, a door-to-door survey has been done by the technical staff of the Agriculture Department from February 01.
                 </p>
                 <p className='pt-1 md:text-lg'>
-                    In order to increase the area productivity of Kalanamak paddy, the Department organized
+                    In order to increase the area productivity of Kalanamak rice, the Department organized
                     KisanPathshala in 256 Gram Panchayatsin Kharif and Rabi season in which 23040 farmers participated.
                     In this sequence, 28 development block level farmers' seminars and fairs, 02 district level seminars
                     and fairs and farmers' scientific dialogues were organized. In which 4493 farmers participated.
@@ -97,13 +97,13 @@ const Production = () => {
             <div className='my-2 md:my-4'>
                 <div className='lg:w-[80%] w-[100%]'>
                     <h2 className='font-semibold text-xl py-1 border-b-[#af7501] border-b text-[#0f5f17]'>
-                        Kalanamak Average Production Paddy/Rice
+                        Kalanamak Average Production Rice
                     </h2>
                     <table id='customers' className='mt-3 '>
                         <tr>
                             <th>Year</th>
                             <th>Production in Total</th>
-                            <th>Quantity of Paddy in Total 70 Percent Rice </th>
+                            <th>Quantity of Rice in Total 70 Percent Rice </th>
                         </tr>
                         <tr>
                             <td>2018</td>

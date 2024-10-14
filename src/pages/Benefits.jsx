@@ -37,7 +37,7 @@ const Benefits = () => {
                     Health Benefits Of Eating Buddha Rice (Kalanamak Rice)
                 </h2>
                 <li className='pt-1 md:text-lg'>
-                    Black salt can be grown only with the help of organic farming. Therefore, the harm caused by
+                    Buddha Rice (Kalanamak Rice) can be grown only with the help of organic farming. Therefore, the harm caused by
                     pesticides (Pesticides side effects on health) and chemical
                     fertilizers can be avoided.
                 </li>
@@ -45,14 +45,14 @@ const Benefits = () => {
                     Antioxidants like anthocyanin are found in rice. These elements boost heart health .
                 </li>
                 <li className='md:text-lg'>
-                    Black salt rice is a grain that improves skin texture and skin health.
+                    Buddha Rice (Kalanamak Rice) rice is a grain that improves skin texture and skin health.
                 </li>
                 <li className='md:text-lg'>
-                    Black salt rice is rich in iron and zinc apart from protein in rice and
+                    Buddha Rice (Kalanamak Rice) rice is rich in iron and zinc apart from protein in rice and
                     that is why it is a grain that removes weakness.
                 </li>
                 <li className='md:text-lg'>
-                    Consumption of black salt rice is considered beneficial for reducing blood disorders or blood disorders.
+                    Consumption of Buddha Rice (Kalanamak Rice) rice is considered beneficial for reducing blood disorders or blood disorders.
                 </li>
             </div>
 
