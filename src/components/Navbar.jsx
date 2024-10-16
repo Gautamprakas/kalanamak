@@ -86,6 +86,7 @@ const Navbar = () => {
           <div className="dropdown-content">
             <NavLink to='production'>Production of Kalanamak</NavLink>
             <NavLink to='methods'>Method of Production</NavLink>
+            <NavLink to='opod'>OPOD</NavLink>
           </div>
         </div>
 
@@ -109,10 +110,13 @@ const Navbar = () => {
           <p className='flex items-center cursor-pointer hover:text-yellow-300'>General Info</p>
         </NavLink>
 
-        <div>
+        {/*<div>
           <p className='flex items-center cursor-pointer hover:text-yellow-300'>
             <a href={Restration} target='_blank'>Registration Process</a></p>
-        </div>
+        </div>*/}
+        <NavLink to='registration-prpcess'>
+          <p className='flex items-center cursor-pointer hover:text-yellow-300'>Registration Process</p>
+        </NavLink>
         <div className='dropdown'>
           <p className='flex items-center cursor-pointer hover:text-yellow-300'>Kalanamak Rice Export Promotion Board<RiArrowDropDownLine className='text-2xl' /></p>
           <div className="dropdown-content">

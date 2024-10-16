@@ -16,6 +16,8 @@ import Privacypolicy from './pages/Privacypolicy';
 import Disclaimer from './pages/Disclaimer';
 import Memorandum from './pages/Revisedmemorandum';
 import Contactus from './pages/Contactus';
+import Registration from './pages/Registration';
+import Opod from './pages/Opod';
 
 
 
@@ -36,6 +38,7 @@ function App() {
           <Route path='varieties' element={<Varieties />} ></Route>
           <Route path='production' element={<Production />} ></Route>
           <Route path='methods' element={<Methods />} ></Route>
+          <Route path='registration-prpcess' element={<Registration />} ></Route>
           <Route path='aboutblacksalt' element={<Aboutblacksalt />} ></Route>
 
 
@@ -43,7 +46,8 @@ function App() {
           <Route path='privacypolicy' element={<Privacypolicy />} ></Route>
           <Route path='memorandum' element={<Memorandum />} ></Route>
           <Route path='contactus' element={<Contactus/>}></Route>
-         
+          <Route path='opod' element={<Opod/>}></Route>
+          
 
         </Route>
       </Routes>
