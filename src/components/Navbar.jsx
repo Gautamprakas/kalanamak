@@ -37,17 +37,21 @@ const Navbar = () => {
 
         <div className='lg:justify-between sm:justify-start flex sm:flex-row flex-col  items-center space-x-12'>
           <img
-            src={logo}
-            className='lg:w-[350px] w-[500px]'
+            src={G_logo}
+            className='lg:w-[125px] max-md:hidden   sm:w-[90px] w-[150px]  ml-[150px]'
           />
           <img
+            src={logo}
+            className='lg :w-[650px] w-[500px] ml-[2px] '
+          />
+          {/*<img
             src={G_logo}
             className='lg:w-[100px] max-md:hidden   sm:w-[90px] w-[150px]  '
-          />
+          />*/}
         </div>
 
         <div className='flex sm:flex-row relative flex-col-reverse  max-sm:mt-2 justify-between xl:space-x-10 sm:mt-[5px] lg:mt-0 sm:items-center'>
-          <ul className='sm:flex hidden flex-row font-semibold flex-wrap items-center space-x-2 xl:mr-[40px] max-sm:my-2 max-sm:ml-2 text-2xl '>
+          <ul className='sm:flex hidden flex-row font-semibold flex-wrap items-center space-x-2 xl:mr-[5px] max-sm:my-2 max-sm:ml-2 text-2xl '>
             <li className='hover:scale-105'><FaFacebook className='text-[#3B5998]  hover:underline cursor-pointer' /></li>
             <li className='hover:scale-105'><BsTwitter className='text-[#55ACEE] hover:underline cursor-pointer' /></li>
             <li className='hover:scale-105'><BsLinkedin className='text-[#007bb5] hover:underline cursor-pointer' /></li>
@@ -80,35 +84,44 @@ const Navbar = () => {
         <NavLink to='aboutblacksalt'>
           <li className='flex items-center cursor-pointer hover:text-yellow-300'>About</li>
         </NavLink>
+        <NavLink to='features'>
+          <li className='flex items-center cursor-pointer hover:text-yellow-300'>Features Of Buddha Rice And Nutritional Information</li>
+        </NavLink>
+        <NavLink to='methods'>
+          <li className='flex items-center cursor-pointer hover:text-yellow-300'>Method Of Production</li>
+        </NavLink>
+        <NavLink to='opod'>
+          <li className='flex items-center cursor-pointer hover:text-yellow-300'>ODOP</li>
+        </NavLink>
 
-        <div className='dropdown'>
+        {/*<div className='dropdown'>
           <p className='flex items-center cursor-pointer hover:text-yellow-300'>Production <RiArrowDropDownLine className='text-2xl' /></p>
           <div className="dropdown-content">
             <NavLink to='production'>Production of Kalanamak</NavLink>
             <NavLink to='methods'>Method of Production</NavLink>
             <NavLink to='opod'>OPOD</NavLink>
           </div>
-        </div>
+        </div>*/}
 
-        <div className='dropdown'>
+        {/*<div className='dropdown'>
           <p className='flex items-center cursor-pointer hover:text-yellow-300'>Cultivation<RiArrowDropDownLine className='text-2xl' /></p>
           <div className="dropdown-content">
             <NavLink to='process-duration'>Package and prectice of Buddha Rice(Kalanamak Rice)</NavLink>
             <NavLink to='varieties'>Buddha Rice(Kalanamak Rice) Varieties And Seed Quantity</NavLink>
           </div>
-        </div>
+        </div>*/}
 
-        <div className='dropdown'>
+        {/*<div className='dropdown'>
           <p className='flex items-center cursor-pointer hover:text-yellow-300'>Nutritional Information<RiArrowDropDownLine className='text-2xl' /></p>
           <div className="dropdown-content">
             <NavLink to='nutritionalinfo'>Properties</NavLink>
             <NavLink to='benefits'>Benefits of Buddha Rice(Kalanamak Rice)</NavLink>
           </div>
-        </div>
+        </div>*/}
 
-        <NavLink to='general-info'>
+        {/*<NavLink to='general-info'>
           <p className='flex items-center cursor-pointer hover:text-yellow-300'>General Info</p>
-        </NavLink>
+        </NavLink>*/}
 
         {/*<div>
           <p className='flex items-center cursor-pointer hover:text-yellow-300'>
@@ -120,8 +133,10 @@ const Navbar = () => {
         <div className='dropdown'>
           <p className='flex items-center cursor-pointer hover:text-yellow-300'>Kalanamak Rice Export Promotion Board<RiArrowDropDownLine className='text-2xl' /></p>
           <div className="dropdown-content">
+            <NavLink to='boardmember'>Kalanamak Rice Export Promotion Board  Member</NavLink>
             <p className='flex items-center cursor-pointer hover:text-yellow-300'>
-            <a href={RiceExportPromotionBoard} target='_blank'>Kalanamak Board Member</a></p>
+            
+            <a href={RiceExportPromotionBoard} target='_blank'>Kalanamak Board Member Pdf</a></p>
             <NavLink to='memorandum'>Revised Memorandum of Association</NavLink>
           </div>
         </div>
@@ -164,16 +179,26 @@ const Navbar = () => {
             <NavLink to='aboutblacksalt'
               onClick={tog}> <li className=' cursor-pointer  font-serif  p-2 border-t-white border-t hover:bg-[#008000] text-white' >About</li>
             </NavLink>
+            <NavLink to='features'
+              onClick={tog}> <li className=' cursor-pointer  font-serif  p-2 border-t-white border-t hover:bg-[#008000] text-white' >Features Of Buddha Rice And Nutritional Information</li>
+            </NavLink>
+            <NavLink to='methods'
+              onClick={tog}> <li className=' cursor-pointer  font-serif  p-2 border-t-white border-t hover:bg-[#008000] text-white' >Method Of Production</li>
+            </NavLink>
+            <NavLink to='opod'
+              onClick={tog}> <li className=' cursor-pointer  font-serif  p-2 border-t-white border-t hover:bg-[#008000] text-white' >ODOP</li>
+            </NavLink>
 
-            <div className='dropdown2'>
+
+            {/*<div className='dropdown2'>
               <li className=' cursor-pointer flex justify-between font-serif  p-2 border-t-white border-t hover:bg-[#008000] text-white' onClick={() => { setshow3(!show3) }}><p>Production</p> <RiArrowDropDownLine className='text-2xl' /></li>
               <div className={`dropdown-content2 ${show3 ? 'block' : 'hidden'} w-[100vw]`}>
                 <NavLink to='production' onClick={tog}>Production of Kalanamak</NavLink>
                 <NavLink to='methods' onClick={tog}>Method of Production </NavLink>
               </div>
-            </div>
+            </div>*/}
 
-            <div className='dropdown2'>
+            {/*<div className='dropdown2'>
               <li className=' cursor-pointer flex justify-between font-serif  p-2 border-t-white border-t hover:bg-[#008000] text-white' onClick={() => { setshow4(!show4) }}><p>Cultivation</p> <RiArrowDropDownLine className='text-2xl' /></li>
               <div className={`dropdown-content2 ${show4 ? 'block' : 'hidden'} w-[100vw]`}>
                 <NavLink to='process-duration' onClick={tog}>Package And Prectice of Buddha Rice(Kalanamak Rice)</NavLink>
@@ -187,28 +212,44 @@ const Navbar = () => {
                 <NavLink to='nutritionalinfo' onClick={tog}>Properties</NavLink>
                 <NavLink to='benefits' onClick={tog}>Benefits of Buddha Rice(Kalanamak Rice)</NavLink>
               </div>
-            </div>
+            </div>*/}
 
-            <NavLink to='general-info'
+            <NavLink to='registration-prpcess'
               onClick={tog}>
-              <li className=' cursor-pointer font-serif  p-2 border-t-white border-t hover:bg-[#008000] text-white'>General Info</li>
+              <li className=' cursor-pointer font-serif  p-2 border-t-white border-t hover:bg-[#008000] text-white'>Registration Process</li>
             </NavLink>
-            <li
+            {/*<li
               onClick={tog} className=' cursor-pointer font-serif hover:bg-[#008000]  p-2 border-t-white border-t text-white'>
               <a href={Restration}>Registration Process</a>
             </li>
-            <li
+
+
+*/}         
+            <div className='dropdown2'>
+              <li className=' cursor-pointer flex justify-between font-serif  p-2 border-t-white border-t hover:bg-[#008000] text-white' onClick={() => { setshow5(!show5) }} ><p>Kalanamak Rice Export Promotion Board</p> <RiArrowDropDownLine className='text-2xl' /></li>
+              <div className={`dropdown-content2 ${show5 ? 'block' : 'hidden'} w-[100vw]`}>
+                
+                <NavLink to='boardmember' onClick={tog}>Kalanamak Rice Export Promotion Board  Member</NavLink>
+                <li
+                  onClick={tog} className=' cursor-pointer font-serif hover:bg-[#008000]  p-2 border-t-white border-t text-white'>
+                  <a href={RiceExportPromotionBoard} target='_blank'>Kalanamak Rice Export Promotion Board Member Pdf</a>
+                </li>
+                <NavLink to='memorandum' onClick={tog}>Revised Memorandum of Association</NavLink>
+              </div>
+            </div>
+            {/*<li
               onClick={tog} className=' cursor-pointer font-serif hover:bg-[#008000]  p-2 border-t-white border-t text-white'>
               <a href={RiceExportPromotionBoard} target='_blank'>Kalanamak Rice Export Promotion Board</a>
             </li>
             <NavLink to='memorandum'
               onClick={tog}>
               <li className=' cursor-pointer font-serif  p-2 border-t-white border-t hover:bg-[#008000] text-white'>Revised Memorandum of Association</li>
-            </NavLink>
+            </NavLink>*/}
           </ul>
         </div>
       </div>
       <Marquee />
+      
 
     </div>
 

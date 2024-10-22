@@ -10,7 +10,7 @@ const Disclaimer = () => {
       <p className='pt-1 md:text-lg'>
         Your access to and use of this website is subject to your compliance with all applicable laws and
         the following terms and conditions. By accessing and browsing this Site, you accept, without
-        limitation or qualification, the Terms and Conditions herein given.<b>Kalanamak Scented Paddy Production & Conservation Society</b>, authorizes you to copy any documents
+        limitation or qualification, the Terms and Conditions herein given.<b>Reserved by Kalanamak Rice Export Promotion Board</b>, authorizes you to copy any documents
         contained on this Site, which are not the property of third parties, provided that such use shall be for non-commercial purposes only by you or within your organization. \
         In consideration of this authorization, you agree that any copies of documents obtained from this Site shall retain all copyright and other proprietary notices contained therein
         and you agree that all artwork, including graphics and logos, shall not be used separately from accompanying text as depicted in this Site. Any other use of materials contained on this Site
@@ -34,22 +34,18 @@ const Disclaimer = () => {
       </p>
 
       <p className='md:text-lg my-2 md:my-4'>
-        Links contained in this Site to other websites, if any, are intended only for informational purposes. Neither Kalanamak Scented Paddy Production & Conservation Society nor this Site is sponsored or affiliated with
-        any particular linked entity unless expressly stated; the existence of any particular link is intended only to imply potential interest to visitors of our Site. These linked sites are not controlled by Kalanamak Scented Paddy Production & Conservation Society. Kalanamak Scented
-        Paddy Production & Conservation Society may not have
-        reviewed any or all of the linked sites and Kalanamak Scented Paddy Production & Conservation Society makes no representations and assumes no responsibility whatsoever regarding any other website which you may access through this Site. Kalanamak Scented Paddy Production & Conservation
-        Society will remove any link from this Site
-        upon request from the linked entity. Please direct such requests to the C&I Division of Kalanamak Scented Paddy Production & Conservation Society at  Bhimappar, Near Railway
-        Crossing, Siddharthnagar, Uttar Pradesh, India.
+        Links contained in this Site to other websites, if any, are intended only for informational purposes. Neither Reserved by Kalanamak Rice Export Promotion Board nor this Site is sponsored or affiliated with
+        any particular linked entity unless expressly stated; the existence of any particular link is intended only to imply potential interest to visitors of our Site. These linked sites are not controlled by Reserved by Kalanamak Rice Export Promotion Board. Reserved by Kalanamak Rice Export Promotion Board may not have
+        reviewed any or all of the linked sites and Reserved by Kalanamak Rice Export Promotion Board makes no representations and assumes no responsibility whatsoever regarding any other website which you may access through this Site. Reserved by Kalanamak Rice Export Promotion Board will remove any link from this Site
+        upon request from the linked entity. Please direct such requests to the C&I Division of Reserved by Kalanamak Rice Export Promotion Board at  Bhimappar, Siddharthnagar, Uttar Pradesh, India.
       </p>
 
 
       <p className='md:text-lg my-2 md:my-4'>
-        The trademarks, service marks and logos used on this Site are trademarks of Kalanamak Scented Paddy Production & Conservation Society and/ or others. No license or right to use any
+        The trademarks, service marks and logos used on this Site are trademarks of Reserved by Kalanamak Rice Export Promotion Board and/ or others. No license or right to use any
         trademark contained on this Site is granted whether by implication or otherwise and any use of any trademark contained on this site is expressly prohibited unless authorized
-        in writing by the trademark holder. Any inquiries regarding these trademarks or whether any other name or logo is a trademark of Kalanamak Scented Paddy Production & Conservation Society or not, should be directed to the C&I Division
-        in Kalanamak Scented Paddy Production & Conservation Society at Bhimappar, Near Railway
-        Crossing, Siddharthnagar, Uttar Pradesh, India . Other brands, product names,
+        in writing by the trademark holder. Any inquiries regarding these trademarks or whether any other name or logo is a trademark of Reserved by Kalanamak Rice Export Promotion Board or not, should be directed to the C&I Division
+        in Reserved by Kalanamak Rice Export Promotion Board at Bhimappar, Siddharthnagar, Uttar Pradesh, India . Other brands, product names,
         trademarks and logos appearing on this Site are the property of their respective owners.
       </p>
     </div>

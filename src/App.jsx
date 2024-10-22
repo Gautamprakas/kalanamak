@@ -18,6 +18,8 @@ import Memorandum from './pages/Revisedmemorandum';
 import Contactus from './pages/Contactus';
 import Registration from './pages/Registration';
 import Opod from './pages/Opod';
+import Features from './pages/Features';
+import Boardmember from './pages/Boardmember';
 
 
 
@@ -32,6 +34,7 @@ function App() {
         <Route path='/' element={<Rootlayout />}>
           <Route path='/' element={<Home />}></Route>
           <Route path='general-info' element={<Info />}></Route>
+          <Route path='features' element={<Features />}></Route>
           <Route path='nutritionalinfo' element={<Nutritionalinfo />} ></Route>
           <Route path='benefits' element={<Benefits />} ></Route>
            <Route path='process-duration' element={<Processduration />} ></Route>
@@ -47,6 +50,7 @@ function App() {
           <Route path='memorandum' element={<Memorandum />} ></Route>
           <Route path='contactus' element={<Contactus/>}></Route>
           <Route path='opod' element={<Opod/>}></Route>
+          <Route path='boardmember' element={<Boardmember/>}></Route>
           
 
         </Route>

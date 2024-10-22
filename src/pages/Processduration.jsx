@@ -1,5 +1,5 @@
 import React from 'react'
-import img6 from '../images/img6.jpg'
+import img6 from '../images/image_a4.jpeg'
 
 const Processduration = () => {
      return (

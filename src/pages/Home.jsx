@@ -3,6 +3,8 @@ import { NavLink } from 'react-router-dom'
 import Card from '../components/Card'
 import CarouselPage from '../components/Carousel'
 import banner from '../images/kalanamak_main.jpg'
+import img10 from '../images/CDO_siddharthnagar.jpg'
+import img11 from '../images/DM_Siddharthnagar2.jpg'
 
 
 
@@ -17,6 +19,7 @@ const Home = () => {
 
   return (
     <div>
+
       {/* Popup Modal */}
       {showModal && (
         <div className="modal">
@@ -45,23 +48,23 @@ const Home = () => {
             recovered from one of the rooms, which was supposed to be the kitchen store.
           </p>
         </div>
-        <div className='mop  py-4' id='production'>
+        {/*<div className='mop  py-4' id='production'>
           <h1 className='font-bold text-center md:text-3xl  text-2xl py-2 text-white'>
             Method Of Production
           </h1>
           <div className='flex lg:flex-row flex-col justify-center items-center lg:space-x-8 max-lg:space-y-5 lg:py-10 py-6'>
-            <NavLink to='methods'>
+            */}{/*<NavLink to='methods'>
               <Card data='Seed Germination Test' val='1' />
-            </NavLink>
-            <NavLink to='methods'>
-              <Card data='Preparation Of Nursery' val='2' />
-            </NavLink>
-            <NavLink to='methods'>
+            </NavLink>*/}
+            {/*<NavLink to='methods'>
+              <Card data='Method Of Production' val='2' />
+            </NavLink>*/}
+            {/*<NavLink to='methods'>
               <Card data='Pest And Disease' val='3' />
-            </NavLink>
-          </div>
-        </div>
-
+            </NavLink>*/}
+         {/* </div>
+        </div>*/}
+      <div className='flex lg:flex-row flex-col-reverse items-center lg:space-x-10 my-2 md:my-4 '> 
         <div className='lg:px-32 md:px-12 sm:px-5 px-3 ' >
           <div className='my-2 md:my-4 md:text-lg'>
             <h2 className='font-semibold md:text-[28px]  text-2xl py-1 border-b-[#af7501] border-b text-[#0f5f17]'>
@@ -94,8 +97,21 @@ const Home = () => {
             </li>
           </div>
         </div>
+        <div className='flex lg:flex-row flex-col items-center lg:space-x-10 my-2 md:my-4 '>
+          <div className='flex flex-col items-center w-full md:w-[50%] text-center md:text-xl font-semibold'>
+                <img src={img11} className='lg:w-[100%] w-[80%] pt-2 lg:pt-0 img_right' alt="DM Siddharthnagar" />
+                <label className='mt-0'>Dr. Rajaganapathy R, IAS</label>
+                <label className='mt-0'>DM Siddharthnagar</label>
+          </div>
+          <div className='flex flex-col items-center w-full md:w-[50%] text-center md:text-xl font-semibold'>
+                <img src={img10} className='lg:w-[100%] w-[80%] pt-2 lg:pt-0 img_right' alt="CDO Siddharthnagar" />
+                <label className='mt-0'>Shri Jayendra Kumar</label>
+                <label className='mt-0'>CDO Siddharthnagar</label>
+          </div>
+        </div>
       </div>
-
+      </div>
+      
     </div>
   )
 }

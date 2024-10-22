@@ -9,6 +9,12 @@ const Contactus = () => {
                     Contact Persons
                </h1>
                <p className='pt-1 md:text-lg'>
+                   District Magistrate (DM) of Siddharthnagar, mob- 9454417530
+               </p>
+                <p className='pt-1 md:text-lg'>
+                   Chief Development Officer (CDO) of Siddharthnagar, mob- 9454464749
+               </p>
+               <p className='pt-1 md:text-lg'>
                     Deputy Director Agriculture, mob-9450891210
                </p>
                <p className='pt-1 md:text-lg'>
@@ -17,7 +23,7 @@ const Contactus = () => {
                <p className='pt-1 md:text-lg'>
                     Deputy Commissioner of Industries , mob-7905323879
                </p>
-
+               
                <div className='my-2 md:my-4'>
                     <h2 className='font-semibold text-xl py-1 border-b-[#af7501] border-b text-[#0f5f17]'>
                         E mail

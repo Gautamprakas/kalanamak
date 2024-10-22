@@ -11,69 +11,266 @@ const Methods = () => {
 
             <div className='my-2 md:my-4'>
                 <h2 className='font-semibold text-xl py-1 border-b-[#af7501] border-b text-[#0f5f17]'>
-                    Seed Germination Test
+                    1- Seed and seed treatment:
                 </h2>
-                <p className='pt-1 md:text-lg'></p>
-                <li className='md:text-lg'>  Soil is placed in a sand pot.</li>
-                <li className='md:text-lg'> 100 No. of seed grains are sown.   </li>
-                <li className='md:text-lg'>  The pots are regularly sprayed by water to keep moist for a week. </li>
-                <li className='md:text-lg'>
-                    After on week percent germination is observed by counting the seedling. If eighty
-                    to ninety percent germination is there then further it is treated that seed is of good
-                    quality.
-                </li>
-            </div>
-
-            <div className='my-2 md:my-4'>
-                <h2 className='font-semibold text-xl py-1 border-b-[#af7501] border-b text-[#0f5f17]'>
-                    Preparation of Nursery
-                </h2>
-                <li className='md:text-lg'>
-                    Preparation of One Mandy Nursery is required for sowing One Bigha of rice.
-                </li>
-                <li className='md:text-lg'>
-                    The field needs to be irrigated once to keep the soil cool.
-                </li>
-                <li className='md:text-lg'>
-                    After intensive puddling of soil, mix 30 kg of cow dung (per mandy).
-                </li>
-                <li className='md:text-lg'>
-                    After 3 hours of the puddling process, germinated seeds can be sown in the nursery.
-                </li>
-                <li className='md:text-lg'>
-                    After 8 day of sowing of seed the field has to be irrigated and 5 kg of Neem cake
-                    per bigha & 100 gm's of multi plus is added.
-                </li>
-                <li className='md:text-lg'> After 20 to 22 days the nursery is to be transplanted in the field.</li>
-            </div>
-
-            <div className='my-2 md:my-4'>
-                <h2 className='font-semibold text-xl py-1 border-b-[#af7501] border-b text-[#0f5f17]'>
-                    Pest and Disease
-                </h2>
-                <p className='pt-1 md:text-lg' >
-                    Before the seeds are sown requisite treatment for pest resistance & control should
-                    be done to keep the seeds safe & free from diseases that manifest in at this stage.
-                    Kalanamak Rice seed is treated with "Trycoderma" and cow urine.
+                <p className='pt-1 md:text-lg'>
+                     Foundation Seed or Certified Seed of Kalanamak rice, which has not been treated with any chemical seed dressing should be used. Due to small grain size, lower 1,000 grain weight, and excellent tillering ability, 30 kilograms seed is enough to cultivate one hectare of land. Seed treatment is very important as it helps to improve the germination, vigour, hardening against drought, environmental shocks and resistance to pests and diseases. The recommended seed treatment techniques are:
                 </p>
+                <li className='md:text-lg'>Use Pseudomonas at the rate of 10g per kg of seed during soaking.</li>
+                <li className='md:text-lg'>Treat with hot water (53-54°C for 10-12 minutes) before soaking the seed.</li>
+                <li className='md:text-lg'>Seed treatment with Azospirillum or Phosphorus solubilising bacteria (PSB) or Phosphorus solubilising micro-organisms (PSM) at the rate of 10 g/kg seed.</li>
                 <li className='md:text-lg'>
-                    5 kg rice seed is treated with 3 gms of Trycoderma Powder with proper
-                    dilution using water.
+                    Some other seed treatment methods could be treating with cow urine, cow milk, Amritpani (30 minutes) and wood ash (rubbing).
                 </li>
-                <li className='md:text-lg'>
-                    The Treated Rice seed is kept for 24 hours.
-                </li>
-                <li className='md:text-lg'>
-                    After 24 hours the treated seeds are to be placed in a coconut sack with some heavy object on it.
-                </li>
-                <li className='md:text-lg'>
-                    within 2-3 days the seed are ready for sowing.
-                </li>
-                <li className='md:text-lg'>
-                    Removal of infected seeds and keeping the field clean helps in reducing the
-                    incidence. </li>
+            </div>
+            <div className='my-2 md:my-4'>
+                <h2 className='font-semibold text-xl py-1 border-b-[#af7501] border-b text-[#0f5f17]'>
+                    2- Time of cultivation:
+                </h2>
+                <p className='pt-1 md:text-lg'>
+                     Kalanamak rice should be cultivated only during Kharif season to maintain its grain quality. Ideal time of its nursery sowing is last week of June to first week of July. Once the seedlings have attained the age of about 30 days, these are ready for transplanting. Ideal time for transplanting is last week of July to first week of August. Transplanting should never be done before last week of July. This recommendation is based on the fact that best grain quality and maximum aroma in the grain is retained when the heading of Kalanamak rice synchronizes with cooler temperature. A temperature range between 25 to 30° C is ideal for aroma retention in the grain. If the temperature higher than 30°C, leaves will synthesise the aroma but it will not accumulate in the grains. The aroma evaporates at higher tempera- tures and the Kalanamak rice field will be aromatic during the visit but grain will not store it. Therefore late sowing of nursery and late transplanting, as late as August first week, is recommended. There is yield decline if transplanted later than second week of August and grain quality decline if nursery sown earlier than last of June.
+
+                </p>
+            </div>
+            <div className='my-2 md:my-4'>
+                <h2 className='font-semibold text-xl py-1 border-b-[#af7501] border-b text-[#0f5f17]'>
+                    3- Nursery Management:
+                </h2>
+                <p className='pt-1 md:text-lg'>
+                     During seed bed preparation, organic manures such as FYM, Compost, vermicompost can be used at 5t/ ha. The best time of nursery sowing is last week of June to the first week of July. For raising nursery of Kalanamak rice, wet seedbed method is recommended. To cultivate one hectare of Kalanamak rice, 0.1 hectare i.e. 1,000 square meters of nursery area is needed. Seed is first soaked for 24 hours in water. After draining the water, the seed is heaped on the floor or put in jute bags for incubation. If it is heaped on the floor, It should be covered with wet jute bags. With the heat generated by soaked seeds, the seeds germinate within 2 days. The sprouted seeds are then broadcast in the previously prepared seedbed. Sprouted seeds that have gathered in bunches should be carefully separated for uniform spreading in nursery. To prepare seedbed for 1 ha land, apply about 500 Kilogram of FYM in 0.1 ha area and mix it well in the soil. Make 1.5 meter wide strips leaving 0.5 meter gap between the two strips for cultural operations. After mixing the FYM well in the soil, fill the bed with water, puddle and level it well so that about 2 centimetres of water stagnates in the seedbed. Then broadcast the sprouted seeds before the mud settles down. If sprouted seed has clods break it for uniform spreading of seed. During germination, seeds are more prone to be damaged by birds and rodents. Take sufficient care to scare the birds and control the rats. In case Zinc deficiency symptoms appear, spray 500 gram of Zinc Sulphate mixed with 250 gram of lime. Weeds normally are not a problem but hand weed if necessary. Maintain 2 to 3 cm of water for better growth.
+                </p>
+            </div>
+            <div className='my-2 md:my-4'>
+                <h2 className='font-semibold text-xl py-1 border-b-[#af7501] border-b text-[#0f5f17]'>
+                    4- Preparation of main field:
+                </h2>
+                <p className='pt-1 md:text-lg'>
+                    While the nursery is growing, preparation of main field must begin to prepare good tilth and also to kill the growing weeds. Use FYM or Herbozyme or Bhumi Shakti or green manure. If green manure is to be applied, Sesbania (Dhaincha) or Mung should be sown in the end May to first week of June either with the onset of rains or by irrigation. Once these crops have grown for about 45-60 days, these should be ploughed in the field using mould board plough. In case Mung was grown the pods should be hand- picked before ploughing in the field. Field must remain flooded to allow proper rotting. Alternatively 6 -10 tonnes of FYM or compost should be applied before ploughing. It has also been found by experienced farmers that application of 2 quintals of Neem cake is useful not only to supply the Nitrogen but also to reduce the incidence of pests and diseases.
+
+                </p>
+            </div>
+            <div className='my-2 md:my-4'>
+                <h2 className='font-semibold text-xl py-1 border-b-[#af7501] border-b text-[#0f5f17]'>
+                    5- Transplanting:
+                </h2>
+                <p className='pt-1 md:text-lg'>
+                    Before transplanting, it is recommended to dip roots of seedlings in Azospirillum and/or PSB/PSM suspension prepared with 600 g of culture for seedlings of one hectare. Two to three seedlings per hill should be transplanted at a spacing of 20 cm row to row and 15 cm plant to plant. At the time of transplanting 2 to 3 cm water above the soil surface is highly desirable as it reduces "transplantation shock", and decreases Nitrogen loss.
+
+
+                </p>
+            </div>
+            <div className='my-2 md:my-4'>
+                <h2 className='font-semibold text-xl py-1 border-b-[#af7501] border-b text-[#0f5f17]'>
+                   6- Weed management:
+                </h2>
+                <p className='pt-1 md:text-lg'>
+                   For weed control herbicides should not be used. Since transplanting of Kalanamak rice is done late, most of the weeds in the rice field have germinated when it is time to transplant. These weeds get eliminated during puddling. However within a fort- night fresh weeds germinate and pose a problem. Therefore, the first weeding needs to be done within a month. No weeding is generally needed afterwards as Kalanamak rice being a tall variety with good vigour covers the soil surface suppressing any weed growth.  
+                
+                    
+                </p>
+                <p className='pt-1 md:text-lg mx-8'>
+                    Only hand weeding or mechanical weeding or cultural practices are to be followed. Off-season land management such as summer ploughing or raising green manure contributes significantly to deplete the weed seed reserves in the soil. Use of some organic inputs such as mulches, bio-fertilizers (Azolla) and organic manures reduce need of weeding. The formation of a thick mat of thallus by the Azolla fern on the standing water surface in lowland rice fields curtails light leading to weed suppression. Use of sugar factory by-product (press-mud), suppresses weed emergence in lowland rice by virtue of its acidic nature and allelopathic metabolites. Reduced weed infestation in rice with organic manures (neem cake and poultry manure) and green leaf manures has been noticed. Hand weeding is the most effective way of weed control in organic rice. In row planted crop Cono Weedeer should be used for effective weed control.
+                    
+                </p>
+            </div>
+            <div className='my-2 md:my-4'>
+                <h2 className='font-semibold text-xl py-1 border-b-[#af7501] border-b text-[#0f5f17]'>
+                    7- Management of Diseases:
+                </h2>
+                <p className='pt-1 md:text-lg'>
+                    Kalanamak rice may suffer from three major diseases viz., blast, bacterial blight and sheath blight. In the nursery, seed treatment with bio-pesticides like Pseudomonas and/or Trichoderma is recommended at 10 g/kg seed. Seedling root dip Pseudomonas and/or Trichoderma formulation at 10 g/litre of water for 10 minutes before planting is also recommended. In the main field, one kg of Pseudomonas and/or Trichoderma formulation mixed with 100 kg farm yard manure can be applied during land preparation. This controls most of the soil borne diseases.
+                
+                    
+                </p>
+            </div>
+            <div className='my-2 md:my-4'>
+                <h2 className='font-semibold text-xl py-1 border-b-[#af7501] border-b text-[#0f5f17]'>
+                    A. Blast <em>(Magnaporthe grisea)</em>
+                </h2>
+                <p className='pt-1 md:text-lg'>
+                    The disease can affect all aerial parts of the plant like leaf, node, neck and panicle. Spindle shaped spots with brown margin and gray centre appear on the leaf. Nodal infection causes the culm to break at the infected node. Panicle or neck blast results in improper grain filling and chaffy ear heads.
+                
+                    
+                </p>
+                <h3 className='font-semibold text-xl py-1  text-[#0f5f17]'>Management</h3>
+                <p className='pt-1 md:text-lg'>
+                    <li className='md:text-lg mx-8'>Removal of straw and stubbles after harvest could reduce the occurrence of overwintering of the pathogen and discourage inoculation in subsequent seasons.</li>
+                    <li className='md:text-lg mx-8'>Seed treatment with cow urine to reduce incidence.</li>
+                    <li className='md:text-lg mx-8'>Spray juice extracted from the leaves and flowers of marigold (Tagetes spp.).</li>
+                    
+                </p>
+            </div>
+            <div className='my-2 md:my-4'>
+                <h2 className='font-semibold text-xl py-1 border-b-[#af7501] border-b text-[#0f5f17]'>
+                   B. Bacterial Blight <em>(Xanthomonas campestris pv Oryzae)</em>
+                </h2>
+                <p className='pt-1 md:text-lg'>
+                    <li className='md:text-lg mx-8'>Grow nursery preferably in isolated upland conditions.</li>
+                    <li className='md:text-lg mx-8'>Drain the field as frequently as possible (except at flowering stage of the crop.</li>
+                    <li className='md:text-lg mx-8'>Avoid flow of water from affected fields.</li>
+                    
+                </p>
+            </div>
+            <div className='my-2 md:my-4'>
+                <h2 className='font-semibold text-xl py-1 border-b-[#af7501] border-b text-[#0f5f17]'>
+                    C. Sheath Blight <em>(Rhizoctonia solani)</em>
+                </h2>
+                <p className='pt-1 md:text-lg'>
+                    This disease appears at the maximum tillering stage and affects all plant parts above water level viz., sheaths, internode, upper leaves and panicles. One or more relatively large oblong or irregularly, eye shaped lesions appear on the leaf sheath and the centre of the lesion becomes bleached with irregular purple brown border. The lesions coalesce and appear as snake skin. If leaf sheath of boot leaf get infected, panicles don't emerge or emerges partially.
+
+                </p>
+                <h3 className='font-semibold text-xl py-1  text-[#0f5f17]'>Management</h3>
+                <p className='pt-1 md:text-lg'>
+                    <li className='md:text-lg mx-8'>Follow wider spacing.</li>
+                    <li className='md:text-lg mx-8'>Plant at the optimum time and avoid early planting.</li>
+                </p>
+            </div>
+            <div className='my-2 md:my-4'>
+                <h2 className='font-semibold text-xl py-1 border-b-[#af7501] border-b text-[#0f5f17]'>
+                    D. Brown Spot <em>(Helminthosporium oryzae)</em>
+                </h2>
+                <p className='pt-1 md:text-lg'>
+                    This fungal pathogen infects the seedling and causes blighting. Circular or oval, dark brown to purplish-brown spots are found on the leaves. In severe conditions, these lesions may coalesce and cover the entire leaf. Usually Brown Spot appears on the mature leaves late in the season and yield losses are minimal. Black spots appear on the glumes also. The kernels of severely infected spikelets become shrivelled and discoloured.
+                </p>
+                <h3 className='font-semibold text-xl py-1  text-[#0f5f17]'>Management</h3>
+                <p className='pt-1 md:text-lg'>
+                    <li className='md:text-lg mx-8'>Use disease free seed for sowing.</li>
+                    <li className='md:text-lg mx-8'>Hot water seed treatment (53-54&deg;C) for 10-12 minutes kills the fungus.</li>
+                    <li className='md:text-lg mx-8'>Follow proper crop nutrition.</li>
+                    <li className='md:text-lg mx-8'>Avoid water stress.</li>
+                    <li className='md:text-lg mx-8'>Practice clean cultivation.</li>
+                </p>
+            </div>
+            <div className='my-2 md:my-4'>
+                <h2 className='font-semibold text-xl py-1 border-b-[#af7501] border-b text-[#0f5f17]'>
+                   8- Management of insect-pests:-
+                </h2>
+                <p className='pt-1 md:text-lg'>
+                   Once the soil is fertile and crop is healthy, pest incidence will be kept at a very minimal level and can be managed by certain cultural, biological and simple botanicals effectively. Emphasis should be placed on the use of multiple and varied tactics incorporated into the cropping system design to prevent damaging levels of pests, thus minimizing the need for curative solutions. Preventative measures are of highest prior- ity to be considered early in the adoption process, followed by more direct and curative measures only when needed. Pest management program for organic crop production is divided into 4 phases:
+                </p>
+                <h3 className='font-semibold text-xl py-1 mx-8  text-[#0f5f17]'>Ist phase</h3>
+                <p className='pt-1 md:text-lg mx-8'>
+                    Cultural practice compatible with natural processes, such as crop rotation, soil management, non-transgenic host plant resistance, farm/field location.
+                </p>
+                <h3 className='font-semibold text-xl py-1 mx-8  text-[#0f5f17]'>2nd phase</h3>
+                <p className='pt-1 md:text-lg mx-8'>
+                    Vegetation management to enhance natural enemy impact and exert direct effects on pest populations.
+                </p>
+                <h3 className='font-semibold text-xl py-1 mx-8  text-[#0f5f17]'>3rd phase</h3>
+                <p className='pt-1 md:text-lg mx-8'>
+                    Inundative and inoculative releases of biological control agents.
+                </p>
+                <h3 className='font-semibold text-xl py-1 mx-8  text-[#0f5f17]'>4th phase</h3>
+                <p className='pt-1 md:text-lg mx-8'>
+                    Use of approved insecticides of biological and mineral origin, and pheromones.
+                </p>
+                <p className='pt-1 md:text-lg mx-8'>
+                    There are more than 100 insect species recorded as feeding on rice plant but only a few pests cause economic loss. Among them stem borers, planthoppers, leafhopper, leaf folder, and gundhi bug. Com- bined use of cultural, mechanical (collection and destruction of pests), biological (use of predators and parasites), pheromone traps, biopesticides (Trichoderma, Pseudomonas, Bacillus), botanicals (neem products etc.), and organic solutions (Panchagavya, Amritpaani etc.) is highly recommended.
+                </p>
+            </div>
+            <div className='my-2 md:my-4'>
+                
+                <h3 className='font-semibold text-xl py-1  text-[#0f5f17]'>Useful Tips:</h3>
+                <p className='pt-1 md:text-lg'>
+                    <li className='md:text-lg mx-8'>Clip seedling tips to remove insect eggs.</li>
+                    <li className='md:text-lg mx-8'>Drain out water to control case worm.</li>
+                    <li className='md:text-lg mx-8'>Broadcast leaves and powdered seed of custard apple <em>(Annona squamosa)</em>.</li>
+                    <li className='md:text-lg mx-8'>Place neem leaves in field in small bundles to control gundhi bug.</li>
+                    <li className='md:text-lg mx-8'>Dust tobacco plant powder for control of stem borer and leaf folder.</li>
+                    <li className='md:text-lg mx-8'>Spray chilli and tobacco and/or garlic and tobacco extracts.</li>
+                    <li className='md:text-lg mx-8'>Spray mixture of cow urine+ nirgandi <em>(Vitex negundo) </em> leaves and hing (Asafoetida).</li>
+                    <li className='md:text-lg mx-8'>Use neem seed, neem leaves and neem cake.</li>
+                    
+                </p>
+            </div>
+            <div className='my-2 md:my-4'>
+                <h2 className='font-semibold text-xl py-1 border-b-[#af7501] border-b text-[#0f5f17]'>
+                    a. Stem borer <em>(Scripophaga incertulas)</em>
+                </h2>
+                <p className='pt-1 md:text-lg'>
+                    Stem borer attacks rice crop throughout the growth period. In the vegetative stage, the larva feeds on the growing point, and as a result the central leaf whorl does not unfold, turns brownish and tiller dries out resulting in the formation of "dead heart". In the reproductive stage, the damage results in the formation of whitish, empty and erect panicles, known as "white ears". The look of "white ears" is frightening but economic losses are negligible.
+                </p>
+                <h3 className='font-semibold text-xl py-1  text-[#0f5f17]'>Management</h3>
+                <p className='pt-1 md:text-lg'>
+                   <li className='md:text-lg mx-8'>Clip the tips of seedlings before transplanting to eliminate egg masses.</li>
+                    <li className='md:text-lg mx-8'>Collect and destroy egg masses in the main field.</li>
+                    <li className='md:text-lg mx-8'>Avoid close planting and continuous water stagnation at early stages.</li>
+                    <li className='md:text-lg mx-8'>Pull out and destroy the affected tillers (dead hearts) and white ears.</li>
+                    <li className='md:text-lg mx-8'>Set up light traps to attract and kill the moths.</li>
+                    <li className='md:text-lg mx-8'>Harvest the crop close to the ground level and destroy the stubbles immediately after harvest by deep ploughing to kill the larvae and pupae.</li>
+                    <li className='md:text-lg mx-8'>Conserve egg parasitoids of friendly insects.</li>
+                    <li className='md:text-lg mx-8'>Apply <em>Bacillus thuringiensis var kurstaki </em> and neem seed kernel extract in combination (2.5 kg/ha and 1%) to reduce oviposition by the stem borer.</li>
+
+                </p>
+            </div>
+            <div className='my-2 md:my-4'>
+                <h2 className='font-semibold text-xl py-1 border-b-[#af7501] border-b text-[#0f5f17]'>
+                    b. Brown <em>(Nilaparvata lugens)</em> & Whitebacked <em>(Sogatella furcifera) </em> plant hopper
+                </h2>
+                <p className='pt-1 md:text-lg'>
+                    Both adults and nymphs suck the sap from the base of the stem, resulting in yellowing and drying of the plants. At early stages of attack, round yellowish patches appear which soon turn brownish due to drying up of the plants. The patches of infestation spread in concentric circles within the field and in severe cases "hopper burn" appears.
+
+                </p>
+                <h3 className='font-semibold text-xl py-1  text-[#0f5f17]'>Management</h3>
+                <p className='pt-1 md:text-lg'>
+                   <li className='md:text-lg mx-8'>Provide 30 cm alleyways at every 2 m to reduce pest incidence.</li>
+                    <li className='md:text-lg mx-8'>Do periodic surveillance for the pest population once a week or every 10 days.</li>
+                    <li className='md:text-lg mx-8'>Set up light traps to monitor pest population and control them.</li>
+                    <li className='md:text-lg mx-8'>Conserve natural enemies like spiders, mired bugs <em>(Cyrtorhinus lividipennis, T. parviceps), Microvelia spp</em>, Coccinellids, ground beetles, and other parasitoids.</li>
+                    <li className='md:text-lg mx-8'>Spray neem seed extract 5% (25 kg/ha) or neem oil 2% (10 litre/ha).</li>
+
+                </p>
             </div>
 
+            <div className='my-2 md:my-4'>
+                <h2 className='font-semibold text-xl py-1 border-b-[#af7501] border-b text-[#0f5f17]'>
+                    c. Leaf folder (or) leaf roller <em>(Cnaphalocrocis medinalis)</em>
+                </h2>
+                <p className='pt-1 md:text-lg'>
+                    The larvae after emerging from eggs, fold the leaves with the help of silken threads secreted from salivary glands, remain inside and feed on the chlorophyll content of the leaves leaving only the lower epidermis. As a result, the photosynthetic activity is affected resulting in loss of grain yield. The loss in yield is more significant when larvae feed on boot-leaf compared to other lower leaves. Following tips are useful:
+                </p>
+                <h3 className='font-semibold text-xl py-1  text-[#0f5f17]'></h3>
+                <p className='pt-1 md:text-lg'>
+                   <li className='md:text-lg mx-8'>Mid-season draining of the field.</li>
+                    <li className='md:text-lg mx-8'>Clipping of affected leaves reduces the pest population.</li>
+                    <li className='md:text-lg mx-8'>Keep the bunds clean and remove grassy weeds which serve as alternate hosts.</li>
+                    <li className='md:text-lg mx-8'>Set up light traps in the field to attract and kill the moths.</li>
+                    <li className='md:text-lg mx-8'>Release <em>Trichogramma chilonis </em> at 1 lakh/ha at 37, 44, and 51 days after transplanting.</li>
+                    <li className='md:text-lg mx-8'>Spray neem seed kernel extract (5%).</li>
+                    <li className='md:text-lg mx-8'>Among biological control agents, there are small wasps and crickets that attack the eggs. The larval and pupal stages are parasitized by many species of wasps, damselflies, ants, beetles, and mermithids. Granulosis virus and nucleopolyhedrosis virus target the larval stages, while spiders and mermithids attack the adults.</li>
+                    <li className='md:text-lg mx-8'>Surrounding grass habitats should be maintained as they serve as temporary reservoirs for natural enemies.</li>
+
+                </p>
+            </div>
+
+            <div className='my-2 md:my-4'>
+                <h2 className='font-semibold text-xl py-1 border-b-[#af7501] border-b text-[#0f5f17]'>
+                  d. Gundhi bug <em>(Leptocorisa sp.)</em>
+                </h2>
+                <p className='pt-1 md:text-lg'>
+                    The nymphs and adults feed on developing milky grains causing brown spots and results in damaging the quality of the grain. The nymphs as well as adults emit a characteristic offensive odour in infested fields, which can be very easily recognized as a signal of presence of gundhi bug in rice fields. At times, it becomes more serious and can cause heavy losses.
+                </p>
+                <h3 className='font-semibold text-xl py-1  text-[#0f5f17]'>Management</h3>
+                <p className='pt-1 md:text-lg'>
+                   <li className='md:text-lg mx-8'>Removal of alternate hosts such as grasses on bunds helps. Netting and handpicking the bugs reduce their numbers.</li>
+                    <li className='md:text-lg mx-8'>Small wasps parasitize the eggs, and the meadow grasshoppers prey on them. Spiders, coccinellid beetles, and dragonflies eat adults and nymphs.</li>
+                    <li className='md:text-lg mx-8'>Spray of Azadirachtin scares the bug and reduces the damage.</li>
+
+                </p>
+            </div>
+
+            <div className='my-2 md:my-4'>
+                <h2 className='font-semibold text-xl py-1 border-b-[#af7501] border-b text-[#0f5f17]'>
+                    9- Harvesting, threshing and storage
+                </h2>
+                <p className='pt-1 md:text-lg'>
+                     Crop matures within 35-40 days after full heading. However, date of harvesting may be decided once the leaves have almost dried. Husk being black in colour does not turn golden or straw colour, thus leaves are better indicator of maturity. Threshing should be done immediately after harvesting. Grain should be sun dried to a moisture level of about 12% before storing. Only new gunny bags should be used for storing the produce.
+                </p>
+                <h3 className='font-semibold text-xl py-1  text-[#0f5f17]'></h3>
+                
+            </div>
+
+            
         </div>
     )
 }

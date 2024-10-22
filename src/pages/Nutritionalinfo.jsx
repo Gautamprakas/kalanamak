@@ -1,5 +1,6 @@
 import React from 'react'
 import blackrice from '../images/black-rice.jpg'
+import a4 from '../images/image_a4.jpeg'
 const Nutritionalinfo = () => {
     return (
 
@@ -7,7 +8,7 @@ const Nutritionalinfo = () => {
 
             <div className='flex lg:flex-row flex-col-reverse items-center lg:space-x-10  '>
                 <img
-                    src={blackrice}
+                    src={a4}
                     className='lg:w-[45%] w-[100%] lg:h-[615px] sm:h-[480px] pt-2 lg:pt-0 '
                 />
                 <div>

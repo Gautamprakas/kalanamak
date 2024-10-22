@@ -1,5 +1,5 @@
 import React from 'react'
-
+import a3 from '../images/image_a3.jpeg'
 const Aboutblacksalt = () => {
   return (
     <div className='lg:px-32 md:px-12 sm:px-5 px-3  lg:py-8 py-4'>
@@ -17,7 +17,7 @@ const Aboutblacksalt = () => {
 
       <div className='flex lg:flex-row flex-col-reverse items-center lg:space-x-10 my-2 md:my-4 '>
         <img
-          src='https://media.istockphoto.com/id/517492788/photo/black-rice-with-a-spoon.jpg?b=1&s=170667a&w=0&k=20&c=VOLjBptAYd8PFIEn7t8IHdF4ooPXp5UxaW-P7JMM_cw='
+          src={a3}
           className='lg:w-[40%] w-[100%] max-h-[400px]  pt-2 lg:pt-0 '
         />
         <div>
@@ -62,42 +62,143 @@ const Aboutblacksalt = () => {
         </p>
       </div>
 
+      <div className="my-4 md:my-3 mt-3">
+                <h1 className=' font-semibold sm:text-3xl text-2xl  inline-block pr-2 border-b-[#af7501] mb-3 border-b-2 text-[#0f5f17]'>
+                    Production of Buddha Rice (Kalanamak Rice)
+                </h1>
+                <p className='pt-1 md:text-lg'>
+                    Where earlier Buddha Rice (Kalanamak Rice) was cultivated in an area of about 22000 hectares in district Siddharth Nagar, due to low production in the course of time,
+                    gradually the farmers got disillusioned with its cultivation, and in its place other varieties of rice were cultivated. After this, from the year
+                    2017, the Agriculture Department and the Government organized demonstrations, seminars, farmers  Various efforts were made to increase the area of
+                    Buddha Rice (Kalanamak Rice) in the district through scientific dialogue, KisanMela etc., due to which it has increased from 2715 hectares in the year 2018 to 17000
+                    hectares in the year 2023.
+                </p>
+            </div>
 
-      <h1
-        className=' pt-3 font-semibold sm:text-3xl pb-1 text-2xl  inline-block pr-2 border-b-[#af7501] mb-3 border-b-2 text-[#0f5f17]'>
-        Buddha Rice (Kalanamak Rice) Festival
-      </h1>
-      <p className=' pt-2 md:text-lg'>
-        The Uttar Pradesh government will be organising a three-day “Buddha Rice (Kalanamak Rice) Festival” in the Siddharth Nagar district,
-        Uttar Pradesh. The festival will start from March 13, 2021.
-        Uttar Pradesh Chief Minister Yogi Adityanath announced that the state will organise the 'Buddha Rice (Kalanamak Rice) Festival'. Kala Namak Rice, grown in the state, is One District One Product
-        (ODOP) of some Eastern UP districts.
-      </p>
+            <div className='my-2 md:my-4'>
+                <h2 className='font-semibold text-xl py-1 border-b-[#af7501] border-b text-[#0f5f17] capitalize'>
+                    Year-wise increase in area and production in the district
+                </h2>
+                <div className='lg:w-[80%] w-[100%]'>
+                    <table id='customers' className='mt-3 '>
+                        <tr>
+                            <th>Year</th>
+                            <th>Area (ha)</th>
+                            <th>Number of Farmers</th>
+                        </tr>
+                        <tr>
+                            <td>2018</td>
+                            <td>2715</td>
+                            <td>2915</td>
+                        </tr>
+                        <tr>
+                            <td>2019</td>
+                            <td>2805</td>
+                            <td>3070</td>
+                        </tr>
+                        <tr>
+                            <td>2020</td>
+                            <td>6000</td>
+                            <td>6730</td>
+                        </tr>
+                        <tr>
+                            <td>2021</td>
+                            <td> 12000</td>
+                            <td>13500</td>
 
-      <div className='flex lg:flex-row flex-col-reverse items-center lg:space-x-9 my-2 md:my-4 '>
-        <div>
-          <h2
-            className='font-semibold text-xl py-1 border-b-[#af7501] border-b text-[#0f5f17]'>
-            About of Festival
-          </h2>
-          <p className=' pt-1 md:text-lg'>
-            The rice festival event is being organised so as to promote, market and brand the selected products as
-            One District One Product under the ‘Atmanirbhar Bharat Abhiyan’ and ‘Local for Vocal’ campaign. The Kala Namak Rice is grown in this region
-            and is One District One Product of some of the Eastern UP districts. Thus, those who attended the festival
-            would be able to taste dishes made with Kala Namak rice. They can purchase Kala Namak rice seeds and rice from these stalls.
-          </p>
-        </div>
+                        </tr>
+                        <tr>
+                            <td>2022</td>
+                            <td> 15000</td>
+                            <td>17950</td>
+                        </tr>
+                        <tr>
+                            <td>2023</td>
+                            <td> 17000</td>
+                            <td>22544</td>
+                        </tr>
+                        <tr>
+                            <td>2024</td>
+                            <td> 18000(estimated target)</td>
+                            <td>23000</td>
+                        </tr>
+                    </table>
+                </div>
+            </div>
 
-        <img
-          src='https://static.toiimg.com/thumb/msid-81488756,imgsize-35642,width-400,resizemode-4/81488756.jpg'
-          className='lg:w-[350px] w-[100%] pt-2 lg:pt-0 '
-        />
-      </div>
-      <p className='md:text-lg -mt-2'>
-        During the festival,
-        the visitors will get to know the historical, nutritional and scientific merits &information regarding the cultivation of Kala Namak Rice. The festival displayed several dishes
-        prepared by the Buddha Rice (Kalanamak Rice) at various   stalls. The dishes include pulao, kheer, lentils, cumin rice, poha, vegetable, rice-chickpeas, khichdi, idli, fara.
-      </p>
+            <div className='my-2  md:my-4'>
+                <h2 className='font-semibold text-xl py-1 border-b-[#af7501] border-b text-[#0f5f17] capitalize'>
+                    Meaningful initiative to promote Buddha Rice (Kalanamak Rice) production by the district
+                </h2>
+                <p className='pt-1 md:text-lg'>
+                    In order to make the seeds of Buddha Rice (Kalanamak Rice) easily available to the farmers at a subsidized rate, in the year 2020-21, certified seeds of
+                    Buddha Rice (Kalanamak Rice) were produced on an area of 04 hectares in the state agriculture area of the district, from which a total of 80 ku 0 seeds
+                    have been obtained. Similarly, in the year 2022-23, 180 quintal certified seeds of Buddha Rice (Kalanamak Rice) were produced on 10 hectare area in the
+                    state agriculture sector. The distribution of this seed has been made available to the farmers on subsidy through the State Agricultural
+                    Seed Stores.This year's Kalanamak, other progressive varieties like KalanamakKiran, APJ.106, APJ.03, Dwarf Kalanamak, were developed as
+                    trials in different fields. This year, Pusa Narendra-1638 and Pusa Narendra-1652 varieties have been developed with the joint efforts of
+                    the scientists of the Indian Council of Agricultural Research, New Delhi and Acharya NarendraDev Agricultural University, KumarganjFaizabad,
+                    which have been tested by KrishiVigyan Kendra,Sohna for various farmers of the district. Trial has been done in the field.Their productivity
+                    is 38-42 quintals per hectare, which is 2.5 times more than the traditional Buddha Rice (Kalanamak Rice) species. To increase the area under Buddha Rice (Kalanamak Rice) in Kharif
+                    this year, a door-to-door survey has been done by the technical staff of the Agriculture Department from February 01.
+                </p>
+                <p className='pt-1 md:text-lg'>
+                    In order to increase the area productivity of Kalanamak rice, the Department organized
+                    KisanPathshala in 256 Gram Panchayatsin Kharif and Rabi season in which 23040 farmers participated.
+                    In this sequence, 28 development block level farmers' seminars and fairs, 02 district level seminars
+                    and fairs and farmers' scientific dialogues were organized. In which 4493 farmers participated.
+                    In the year 2020-21, from March 13 to March 15, 2021and in the year 2022-23,on November 20-24, 2021,
+                    Kalanamak Festival was organized, in which about 22000 farmers participated.
+                </p>
+            </div>
+
+            <div className='my-2 md:my-4'>
+                <div className='lg:w-[80%] w-[100%]'>
+                    <h2 className='font-semibold text-xl py-1 border-b-[#af7501] border-b text-[#0f5f17]'>
+                        Kalanamak Average Production Rice
+                    </h2>
+                    <table id='customers' className='mt-3 '>
+                        <tr>
+                            <th>Year</th>
+                            <th>Production in Total</th>
+                            <th>Quantity of Rice in Total 70 Percent Rice </th>
+                        </tr>
+                        <tr>
+                            <td>2018</td>
+                            <td>59730</td>
+                            <td>41811</td>
+                        </tr>
+                        <tr>
+                            <td>2019</td>
+                            <td>61710</td>
+                            <td>43197</td>
+                        </tr>
+                        <tr>
+                            <td>2020</td>
+                            <td>132000</td>
+                            <td>92400</td>
+                        </tr>
+                        <tr>
+                            <td>2021</td>
+                            <td>264000 </td>
+                            <td>184800</td>
+                        </tr>
+                        <tr>
+                            <td>2022</td>
+                            <td>285000 </td>
+                            <td>199500</td>
+                        </tr>
+                        <tr>
+                            <td>2023</td>
+                            <td>340000 </td>
+                            <td>238000</td>
+                        </tr>
+                    </table>
+                </div>
+            </div>
+
+
+      
     </div>
   )
 }

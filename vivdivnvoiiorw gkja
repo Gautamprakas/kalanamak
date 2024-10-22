@@ -1,0 +1,211 @@
+[33mcommit 9d8883f3f97fd76a576753c0dcb46d880cd8a453[m[33m ([m[1;36mHEAD -> [m[1;32mmain[m[33m)[m
+Author: Prakash <gautamprakash697@gmail.com>
+Date:   Wed Oct 16 14:42:03 2024 +0530
+
+    Created opod menu and add content for registration process
+
+[1mdiff --git a/src/App.css b/src/App.css[m
+[1mindex 0eb3e32..b6ea796 100644[m
+[1m--- a/src/App.css[m
+[1m+++ b/src/App.css[m
+[36m@@ -6,6 +6,7 @@[m
+   box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);[m
+   z-index: 1;[m
+ }[m
+[32m+[m
+ .dropdown-content2 {[m
+   [m
+   background-color: #7ead5e;[m
+[1mdiff --git a/src/App.jsx b/src/App.jsx[m
+[1mindex f175f6f..3c7181b 100644[m
+[1m--- a/src/App.jsx[m
+[1m+++ b/src/App.jsx[m
+[36m@@ -16,6 +16,8 @@[m [mimport Privacypolicy from './pages/Privacypolicy';[m
+ import Disclaimer from './pages/Disclaimer';[m
+ import Memorandum from './pages/Revisedmemorandum';[m
+ import Contactus from './pages/Contactus';[m
+[32m+[m[32mimport Registration from './pages/Registration';[m
+[32m+[m[32mimport Opod from './pages/Opod';[m
+ [m
+ [m
+ [m
+[36m@@ -36,6 +38,7 @@[m [mfunction App() {[m
+           <Route path='varieties' element={<Varieties />} ></Route>[m
+           <Route path='production' element={<Production />} ></Route>[m
+           <Route path='methods' element={<Methods />} ></Route>[m
+[32m+[m[32m          <Route path='registration-prpcess' element={<Registration />} ></Route>[m
+           <Route path='aboutblacksalt' element={<Aboutblacksalt />} ></Route>[m
+ [m
+ [m
+[36m@@ -43,7 +46,8 @@[m [mfunction App() {[m
+           <Route path='privacypolicy' element={<Privacypolicy />} ></Route>[m
+           <Route path='memorandum' element={<Memorandum />} ></Route>[m
+           <Route path='contactus' element={<Contactus/>}></Route>[m
+[31m-         [m
+[32m+[m[32m          <Route path='opod' element={<Opod/>}></Route>[m
+[32m+[m[41m          [m
+ [m
+         </Route>[m
+       </Routes>[m
+[1mdiff --git a/src/components/Navbar.jsx b/src/components/Navbar.jsx[m
+[1mindex a80f6b2..8d9dc94 100644[m
+[1m--- a/src/components/Navbar.jsx[m
+[1m+++ b/src/components/Navbar.jsx[m
+[36m@@ -86,6 +86,7 @@[m [mconst Navbar = () => {[m
+           <div className="dropdown-content">[m
+             <NavLink to='production'>Production of Kalanamak</NavLink>[m
+             <NavLink to='methods'>Method of Production</NavLink>[m
+[32m+[m[32m            <NavLink to='opod'>OPOD</NavLink>[m
+           </div>[m
+         </div>[m
+ [m
+[36m@@ -109,10 +110,13 @@[m [mconst Navbar = () => {[m
+           <p className='flex items-center cursor-pointer hover:text-yellow-300'>General Info</p>[m
+         </NavLink>[m
+ [m
+[31m-        <div>[m
+[32m+[m[32m        {/*<div>[m
+           <p className='flex items-center cursor-pointer hover:text-yellow-300'>[m
+             <a href={Restration} target='_blank'>Registration Process</a></p>[m
+[31m-        </div>[m
+[32m+[m[32m        </div>*/}[m
+[32m+[m[32m        <NavLink to='registration-prpcess'>[m
+[32m+[m[32m          <p className='flex items-center cursor-pointer hover:text-yellow-300'>Registration Process</p>[m
+[32m+[m[32m        </NavLink>[m
+         <div className='dropdown'>[m
+           <p className='flex items-center cursor-pointer hover:text-yellow-300'>Kalanamak Rice Export Promotion Board<RiArrowDropDownLine className='text-2xl' /></p>[m
+           <div className="dropdown-content">[m
+[1mdiff --git a/src/pages/Opod.jsx b/src/pages/Opod.jsx[m
+[1mnew file mode 100644[m
+[1mindex 0000000..af16a0d[m
+[1m--- /dev/null[m
+[1m+++ b/src/pages/Opod.jsx[m
+[36m@@ -0,0 +1,71 @@[m
+[32m+[m[32mimport React from 'react'[m[41m[m
+[32m+[m[32m const Opod =()=>{[m[41m[m
+[32m+[m[41m [m	[32mreturn ([m[41m[m
+[32m+[m[41m [m		[32m<div className='lg:px-28 md:px-12 sm:px-5 px-3  lg:py-8 py-4'>[m[41m[m
+[32m+[m[41m [m			[32m<div>[m[41m[m
+[32m+[m[32m                <h1 className=' font-semibold sm:text-3xl text-2xl  inline-block pr-2 border-b-[#af7501] mb-3 border-b-2 text-[#0f5f17]'>[m[41m[m
+[32m+[m[32m                    OPOD[m[41m[m
+[32m+[m[32m                </h1>[m[41m[m
+[32m+[m[32m                <p className='pt-1 md:text-lg my-2'>[m[41m[m
+[32m+[m[32m                    बुद्धा राइस कालानमक चावल का इतिहास& बुद्धा राइस ¼ कालानमक चावल ½ का उत्पादन जनपद सिद्धार्थनगर के अलीगढ़वा नामक स्थान पर बुद्ध काल से होता आ रहा है। गौतम बुद्ध के पिता राजा शुद्धोधन की राजधानी कपिलवस्तु को बुद्धा राइस ¼ कालानमक चावल ½ का उत्पत्ति स्थान माना जाता है। फैक्सियन नामक चीनी बाद्धै यात्री ने लिखा है कि जब महात्मा बुद्ध ने कपिलवस्तु का भ्रमण किया तो वे बजहा जंगल से गुजरते हुए मठला गाँव पहुँचे जहाँ उन्होनें अपने अनुयायियों को बुद्धा राइस ¼ कालानमक चावल ½ प्रसाद के रूप में दिया और कहा कि बुद्धा राइस ¼ कालानमक चावल ½ की बुआई अपने खेतो में करें। बुआई से जो धान पैदा होगा उसकी खुशबू हमेशा मेरी याद दिलाती रहेगी। इसी कारण बुद्धा राइस ¼ कालानमक चावल ½ बुद्ध के प्रसाद के रूप में प्रसिद्ध है।[m[41m[m
+[32m+[m[32m                </p>[m[41m[m
+[32m+[m[32m                <p className='pt-1 md:text-lg'>[m[41m[m
+[32m+[m[32m                जियोग्राफिकल इंडिकेशन & उत्तर प्रदेश सरकार के सौजन्य से कृषि विभाग ने बुद्धा राइस ¼ कालानमक चावल ) को बढावा देने हेतु वर्ष 2012 में Geographical Indication Tagging ¼ कालानमक चावल ) पैदा करने के लिए क्षेत्र का निर्धारण कराया और उत्तर प्रदेश के पूर्वी तराई क्षेत्र विशेषतः जनपद सिद्धार्थनगर को कालानमक उत्पादन के लिए सबसे उपयुक्त जलवायु माना।[m[41m[m
+[32m+[m[32m                </p>[m[41m[m
+[32m+[m[32m                <p className='pt-1 md:text-lg my-2'>[m[41m[m
+[32m+[m[41m                [m	[32mजनपद में क्षेत्रफल के दृष्टिकोण से वर्षवार आंकड़ा & जहाँ पर्वू में जनपद सिद्धार्थनगर में बुद्धा राइस ¼कालानमक चावल½ की खेती लगभग 22000 हेक्टेयर में होती थी वहीं कालान्तर में कम उत्पादन होने के कारण धीरे-धीरे कृषकों का इसकी खेती के प्रति मोह भंग हो गया। लेकिन जिला प्रशासन एवं कृषि विभाग द्वारा इसकी खेती को पुनर्जीवित करने एवं उत्पादन में वृद्धि हेतु समय&समय पर विभिन्न प्रयास जैसे& गोष्ठियाँ] प्रदर्शन] किसान मेला इत्यादि का आयोजन किया गया[m[41m [m
+[32m+[m[32m                </p>[m[41m[m
+[32m+[m[32m                <p className='pt-1 md:text-lg my-2'>[m[41m[m
+[32m+[m[41m                [m	[32mजिससे बुद्धा राइस ¼कालानमक चावल½ की खेती का क्षेत्रफल वर्ष 2023 में 18000 हेक्टेयर हो गया। वर्तमान में बुद्धा राइस ¼कालानमक चावल½ का औसत उत्पादन लगभग 36000 मी0टन प्रतिवर्ष है। मूल्य अधिक मिलने के कारण बुद्धा राइस ¼कालानमक चावल½ के प्रति कृषकों का आकर्षण भी बढ़ रहा है। यही कारण है कि एक जनपद एक उत्पाद में बुद्धा राइस ¼कालानमक चावल½ के लिए जनपद सिद्धार्थनगर को वर्ष 2022 में प्रधानमंत्री लोक प्रशासन उत्कृष्टता अवार्ड से विभूषित सम्मानित किया गया है।[m[41m[m
+[32m+[m[32m                </p>[m[41m[m
+[32m+[m[32m                <p className='pt-1 md:text-lg my-2'>[m[41m[m
+[32m+[m[41m                [m	[32mबुद्धा राइस ¼कालानमक चावल½ का औषधीय लाभ & बुद्धा राइस ¼कालानमक चावल½ की गुणवत्ता की जाँच शासन एवं कृषि विभाग द्वारा हैदराबाद ICAR-IIRR, IILT एवं Eastern Pacific Lab से कराया गया। जॉँचोपंरान्त बुद्धा राइस ¼कालानमक चावल½ में जिंक 16.97 पी0पी0एम0 पाया गया जो सामान्य चावल के 0.1 पी0पी0एम0 से लगभग 170 गुना अधिक है इसी तरह लोहा 4.55 मिलीग्राम पाया गया, जो सामान्य धान के 1 मिलीग्राम से 4.5 गुना अधिक, प्रोटीन 10.6 प्रतिशत जो सामान्य धान के 5-6 प्रतिशत से 2 गुना अधिक तथा बीटा कैरोटीन 0.42 मिलीग्राम है जबकि यह सामान्य धान मे शून्य होता है। इसके अतिरिक्त इसम निम्न पोषक तत्व पाये जाते हैं[m[41m[m
+[32m+[m[32m                </p>[m[41m[m
+[32m+[m[32m            </div>[m[41m[m
+[32m+[m[32m            <div className='my-2 md:my-4'>[m[41m[m
+[32m+[m[32m                <div className='lg:w-[80%] w-[100%]'>[m[41m[m
+[32m+[m[32m                    {/*<h2 className='font-semibold text-xl py-1 border-b-[#af7501] border-b text-[#0f5f17]'>[m[41m[m
+[32m+[m[32m                        Kalanamak Average Production Rice[m[41m[m
+[32m+[m[32m                    </h2>*/}[m[41m[m
+[32m+[m[32m                    <table id='customers' className='mt-3 '>[m[41m[m
+[32m+[m[32m                        <tr>[m[41m[m
+[32m+[m						[32m    <th>dSyksj h</th>[m[41m[m
+[32m+[m						[32m    <th>iku h</th>[m[41m[m
+[32m+[m						[32m    <th>dkcksZqkbM asV</th>[m[41m[m
+[32m+[m						[32m    <th colspan="5">olk O~2g</th>[m[41m[m
+[32m+[m						[32m  </tr>[m[41m[m
+[32m+[m						[32m  <tr>[m[41m[m
+[32m+[m						[32m    <td rowspan="2">130</td>[m[41m[m
+[32m+[m						[32m    <td rowspan="2">69 izfr</td>[m[41m[m
+[32m+[m						[32m    <td rowspan="2">28.7g</td>[m[41m[m
+[32m+[m						[32m    <td>lspajsVs M</td>[m[41m[m
+[32m+[m						[32m    <td>esukslspajsV sM</td>[m[41m[m
+[32m+[m						[32m    <td>ikWyh lspajsVs M</td>[m[41m[m
+[32m+[m						[32m    <td>vksesx &3</td>[m[41m[m
+[32m+[m						[32m    <td>vkseskk &6</td>[m[41m[m
+[32m+[m						[32m  </tr>[m[41m[m
+[32m+[m						[32m  <tr>[m[41m[m
+[32m+[m[41m						    [m
+[32m+[m						[32m    <td>0.05g</td>[m[41m[m
+[32m+[m						[32m    <td>0.06g</td>[m[41m[m
+[32m+[m						[32m    <td>0.05g</td>[m[41m[m
+[32m+[m						[32m    <td>0.01g</td>[m[41m[m
+[32m+[m						[32m    <td>0.05g</td>[m[41m[m
+[32m+[m						[32m  </tr>[m[41m[m
+[32m+[m[41m                       [m
+[32m+[m[32m                    </table>[m[41m[m
+[32m+[m[32m                    <p className='pt-1 md:text-lg my-2'>[m[41m[m
+[32m+[m[41m                [m	[32mबुद्धा राइस ¼कालानमक चावल½ का ग्लाइसेमिक इन्डेक्स 49 प्रतिशत से 52 प्रतिशत है जो सामान्य चावल-85 प्रतिशत की तुलना में लगभग आधा है जिस कारण यह शुगर फ्री चावल की श्रेणी में आता है जिससे मधुमेह रोगी भी इसका सेवन कर सकते हैं।[m[41m[m
+[32m+[m[41m                [m	[32m</p>[m[41m[m
+[32m+[m[41m                [m	[32m<p className='pt-1 md:text-lg my-2'>[m[41m[m
+[32m+[m[41m                [m	[32mबुद्धा राइस ¼कालानमक चावल½ के प्रचार-प्रसार हेतु जनपद में दिनाँक 22 एंव 23 दिसम्बर 2024 को वृहद क्रेता-विक्रेता सम्मेलन का आयोजन किया जा रहा है। आप सभी महानुभाव ¼क्रेता-विक्रेता½ से अनुरोध है कि इस कार्यक्रम में अपनी गरिमामयी उपस्थिति से कार्यक्रम को सफल बनायें।[m[41m[m
+[32m+[m[41m                [m	[32m</p>[m[41m[m
+[32m+[m[32m                </div>[m[41m[m
+[32m+[m[32m            </div>[m[41m[m
+[32m+[m[41m [m		[32m</div>[m[41m[m
+[32m+[m[41m [m	[32m)[m[41m[m
+[32m+[m[41m[m
+[32m+[m[32m }[m[41m[m
+[32m+[m[41m[m
+[32m+[m[41m[m
+[32m+[m[32m export default Opod;[m
+\ No newline at end of file[m
+[1mdiff --git a/src/pages/Registration.jsx b/src/pages/Registration.jsx[m
+[1mnew file mode 100644[m
+[1mindex 0000000..67a20f9[m
+[1m--- /dev/null[m
+[1m+++ b/src/pages/Registration.jsx[m
+[36m@@ -0,0 +1,552 @@[m
+[32m+[m[32mimport React from 'react'[m[41m[m
+[32m+[m[32mconst Registration = () =>{[m[41m[m
+[32m+[m	[32mreturn ([m[41m[m
+[32m+[m[41m[m
+[32m+[m		[32m<div className='lg:px-28 md:px-12 sm:px-5 px-3  lg:py-8 py-4'>[m[41m[m
+[32m+[m[41m[m
+[32m+[m[32m            <div>[m[41m[m
+[32m+[m[32m                <h1 className=' font-semibold sm:text-3xl text-2xl  inline-block pr-2 border-b-[#af7501] mb-3 border-b-2 text-[#0f5f17]'>[m[41m[m
+[32m+[m[32m                   1. संस्था की सदस्यता एवं वर्ग (Organization Membership and Class)[m[41m[m
+[32m+[m[32m                </h1>[m[41m[m
+[32m+[m[32m            </div>[m[41m[m
+[32m+[m[41m[m
+[32m+[m[32m            <div className='my-2 md:my-4'>[m[41m[m
+[32m+[m[32m                <div className='lg:w-[80%] w-[100%]'>[m[41m[m
+[32m+[m[32m                    <table id='customers' className='mt-3 '>[m[41m[m
+[32m+[m[32m                        <tr>[m[41m[m
+[32m+[m[32m                            <th>सदस्यता का प्रकार</th>[m[41m[m
+[32m+[m[32m                            <th>शुल्क रू0</th>[m[41m[m
+[32m+[m[32m                            <th>सदस्य बनने की प्रक्रिया</th>[m[41m[m
+[32m+[m[32m                        </tr>[m[41m[m
+[32m+[m[32m                        <tr>[m[41m[m
+[32m+[m						[32m    <td>आजीवन सदस्य (Life Time Member)</td>[m[41m[m
+[32m+[m						[32m    <td>₹10,000</td>[m[41m[m
+[32m+[m						[32m    <td>जो व्यक्ति संस्था के विकास हेतु निर्धारित शुल्क एक बार में या इतने ही मूल्य की चल-अचल सम्पत्ति के रूप में देगें, वे संस्था के आजीवन सदस्य होगें।</td>[m[41m[m
+[32m+[m						[32m</tr>[m[41m[m
+[32m+[m						[32m<tr>[m[41m[m
+[32m+[m						[32m    <td>विशेष सदस्य (Special Member)</td>[m[41m[m
+[32m+[m						[32m    <td>₹0</td>[m[41m[m
+[32m+[m						[32m    <td>संस्था विशिष्ट सदस्यों को उनके सामाजिक एवं शैक्षिक उपलब्धियों के आधार पर चयनित करेगी। उनके लिए सदस्यता शुल्क का निर्धारण कार्यकारिणी करेगी।</td>[m[41m[m
+[32m+[m						[32m</tr>[m[41m[m
+[32m+[m						[32m<tr>[m[41m[m
+[32m+[m						[32m    <td>सामान्य सदस्य (General Member)</td>[m[41m[m
+[32m+[m						[32m    <td>₹1,000</td>[m[41m[m
+[32m+[m						[32m    <td>जो व्यक्ति संस्था के उद्देश्यों में आस्था रखते हैं तथा संस्था के विकास हेतु निर्धारित वार्षिक सदस्यता शुल्क नियमानुसार निःस्वार्थ भाव से देते हैं, वे संस्था के सामान्य सदस्य होगें। इनका कार्यकाल 5 वर्ष का होगा।</td>[m[41m[m
+[32m+[m						[32m</tr>[m[41m[m
+[32m+[m						[32m<tr>[m[41m[m
+[32m+[m							[32m<th colspan="3">[m[41m[m
+[32m+[m							[32m<strong>सदस्यता की समाप्ति ( Termination fo Membership )</strong>[m[41m[m
+[32m+[m							[32m</th>[m[41m[m
+[32m+[m						[32m</tr>[m[41m[m
+[32m+[m						[32m<tr>[m[41m[m
+[32m+[m							[32m<td colspan="3">[m[41m[m
+[32m+[m								[32m<ol className='my-2 mx-4 md:my-4 '>[m[41m[m
+[32m+[m									[32m  <li>1.मृत्यु हो जाने पर।</li>[m[41m[m
+[32m+[m									[32m  <li>2.पागल या दिवालिया हो जाने पर।</li>[m[41m[m
+[32m+[m									[32m  <li>3.संस्था के विपरीत हानिकारक कार्य करने पर।</li>[m[41m[m
+[32m+[m									[32m  <li>4.अविश्वास प्रस्ताव या त्याग पत्र पारित करने पर।</li>[m[41m[m
+[32m+[m									[32m  <li>5.नियमित रूप से सदस्यता शुल्क न देने पर।</li>[m[41m[m
+[32m+[m									[32m  <li>6.लगातार तीन बैठकों में अनुपस्थित होने पर।</li>[m[41m[m
+[32m+[m									[32m  <li>7.नैतिक अपराधों में न्यायालय द्वारा दण्डित होने पर।[
