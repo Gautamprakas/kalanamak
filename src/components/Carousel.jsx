@@ -15,24 +15,22 @@ import img11 from '../images/DM_Siddharthnagar2.jpg'
 const CarouselPage = () => {
       return (
       <div className="">      
-            <div className='flex flex-col md:flex-row items-center py-1 md:px-5 px-2 bg-slate-100 shadow-sm'>
-              {/* Image 1 with Labels */}
-              <div className='flex flex-col items-center w-full md:w-[50%] text-center md:text-xl font-semibold'>
-                <img src={img9} className='lg:w-[25%] w-[80%] pt-2 lg:pt-0 img_left' alt="Yogi Adityanath" />
+            <div className='flex flex-col md:flex-row items-center justify-between py-1 md:px-5 px-2 bg-slate-100 shadow-sm gap-x-80'>
+                  {/* Image 1 with Labels */}
+              <div className='flex flex-col items-center md:items-center w-full md:w-[50%] text-center md:text-left md:text-xl font-semibold'>
+                <img src={img9} className='lg:w-[25%] w-[80%] pt-2 lg:pt-0 ' alt="Yogi Adityanath" />
                 <label className='mt-0'>Yogi Adityanath</label>
-                <label className='mt-0'>Hon'ble Chief Minister</label>
+                <label className='mt-0 '>Hon'ble Chief Minister</label>
               </div>
 
               {/* Image 2 with Labels */}
-              <div className='flex flex-col items-center w-full md:w-[50%] text-center md:text-xl font-semibold'>
-                <img src={img8} className='lg:w-[25%] w-[80%] pt-2 lg:pt-0 img_left' alt="Surya Pratap Sahi" />
+              <div className='flex flex-col items-center md:items-center w-full md:w-[50%] text-center md:text-right md:text-xl font-semibold'>
+                <img src={img8} className='lg:w-[25%] w-[80%] pt-2 lg:pt-0  ' alt="Surya Pratap Sahi" />
                 <label className='mt-0'>Surya Pratap Sahi</label>
                 <label className='mt-0'>Hon'ble Cabinet Minister</label>
               </div>
-
-              
-              
             </div>
+
 
             <Carousel showArrows={true} infiniteLoop={true} autoPlay={true} transitionTime={1000} useKeyboardArrows={true}>
                   

@@ -10,8 +10,8 @@ const Aboutblacksalt = () => {
 
       <p className='  pt-1 md:text-lg'>
         Kalanamak was grown widely in Kapilvastu and UP's Tarai belt, which
-        comprised districts Siddharth Nagar, SantKabir Nagar, Maharajganj, Basti, Gonda, and Gorakhpur. Until the 1990s,
-        the variety made up more than 10% of total rice cultivation area in Siddharthanagar. However, acreage growing this
+        comprised districts Siddharth Nagar, Sant Kabir Nagar, Maharajganj, Basti, Gonda, and Gorakhpur. Until the 1990s,
+        the variety made up more than 10% of total rice cultivation area in Siddharthnagar. However, acreage growing this
         variety in this district declined to {`<`}0.5% of total rice cultivation during 2002.
       </p>
 
@@ -28,7 +28,7 @@ const Aboutblacksalt = () => {
           <p
             className=' pt-1 md:text-lg'>
             Buddha Rice (Kalanamak Rice) rice is being produced in district Siddharthnagar since ancient times. Its cultivation is being
-            done in Siddharthnagar since Buddha's time (600 BC). Apart from being aromatic,Buddha Rice (Kalanamak Rice) rice is full of nutrients, due to which its demand has been
+            done in Siddharthnagar since Buddha's time (600 BC). Apart from being aromatic Buddha Rice (Kalanamak Rice) rice is full of nutrients, due to which its demand has been
             increasing in the country and outside the country.
           </p>
 
@@ -39,9 +39,9 @@ const Aboutblacksalt = () => {
             </h2>
             <p
               className=' pt-1 md:text-lg'>
-              For Buddha Rice (Kalanamak Rice), the area between 27° 28' north latitude and 82° 45' to 83° 10' east longitudein
-              UttarPradesh is considered suitable. District Siddharth Nagar as well as variousblocks of nearby districts and Panchpedwa and Gasdi
-              block of Balrampur, Ramnagar of Basti, Rudhauli block, Santh block of Santakbirnagar, PPganj blockof Gorakhpur and Nichlaul, Farenda, Brijmanganj blockof Maharajganj district are included.
+              For Buddha Rice (Kalanamak Rice), the area between 27° 28' north latitude and 82° 45' to 83° 10' east longitude in
+              UttarPradesh is considered suitable. District Siddharth Nagar as well as various blocks of nearby districts and Panchpedwa and Gasdi
+              block of Balrampur, Ramnagar of Basti, Rudhauli block, Santha block of Sant Kabir Nagar, Pipiganj block of Gorakhpur and Nichlaul, Farenda, Brijmanganj block of Maharajganj district are included.
             </p>
           </div>
         </div>
@@ -54,11 +54,11 @@ const Aboutblacksalt = () => {
         </h2>
         <p
           className=' pt-1 md:text-lg'>
-          Zinc and iron elements are found in Buddha Rice (Kalanamak Rice) rice. Those who have the ability to fight against many diseases.
-          Buddha Rice (Kalanamak Rice) rice is softer than Basmati. In 2013, Buddha Rice (Kalanamak Rice) was selected under the Nutrifarm scheme by the Government of India to fight malnutrition.
-          If Buddha Rice (Kalanamak Rice) is compared with the hybrid species, the hybrid variety produces 30 quintals of rice, while the traditional variety Kalanamak produces 19 quintals of rice.
+          Zinc and iron elements are found in Buddha Rice . That have the ability to fight against many diseases.
+          Buddha Rice rice is softer than Basmati. In 2013, Kalanamak Rice was selected under the Nutrifarm scheme by the Government of India to fight malnutrition.
+          If Kalanamak Rice is compared with the hybrid species, the hybrid variety produces 30 quintals of rice, while the traditional variety Kalanamak produces 19 quintals of rice.
           When the price of normal rice is Rs.30 per kg, Rs.90,000 per hectare, while 19 kg of Buddha Rice (Kalanamak Rice) rice is available at the rate of Rs.110 per kg, Rs.209,000 per hectare. In this way,
-          Rs 119000-00 more per hectare is obtained from Buddha Rice (Kalanamak Rice) as compared to normal/hybrid variety. (In Kalanamak variety up to 70 percent rice)
+          Rs 119000-00 more profit per hectare is obtained from Buddha Rice (Kalanamak Rice) as compared to normal/hybrid variety. (Ideally in Kalanamak variety up to 70 percent rice is obtained)
         </p>
       </div>
 
@@ -69,7 +69,7 @@ const Aboutblacksalt = () => {
                 <p className='pt-1 md:text-lg'>
                     Where earlier Buddha Rice (Kalanamak Rice) was cultivated in an area of about 22000 hectares in district Siddharth Nagar, due to low production in the course of time,
                     gradually the farmers got disillusioned with its cultivation, and in its place other varieties of rice were cultivated. After this, from the year
-                    2017, the Agriculture Department and the Government organized demonstrations, seminars, farmers  Various efforts were made to increase the area of
+                    2017, the Agriculture Department and the Government organised demonstrations, seminars, farmers  Various efforts were made to increase the area of
                     Buddha Rice (Kalanamak Rice) in the district through scientific dialogue, KisanMela etc., due to which it has increased from 2715 hectares in the year 2018 to 17000
                     hectares in the year 2023.
                 </p>
@@ -131,24 +131,24 @@ const Aboutblacksalt = () => {
                     Meaningful initiative to promote Buddha Rice (Kalanamak Rice) production by the district
                 </h2>
                 <p className='pt-1 md:text-lg'>
-                    In order to make the seeds of Buddha Rice (Kalanamak Rice) easily available to the farmers at a subsidized rate, in the year 2020-21, certified seeds of
-                    Buddha Rice (Kalanamak Rice) were produced on an area of 04 hectares in the state agriculture area of the district, from which a total of 80 ku 0 seeds
+                    In order to make the seeds of Buddha Rice  easily available to the farmers at a subsidized rate, in the year 2020-21, certified seeds of
+                    Buddha Rice (Kalanamak Rice) were produced on an area of 04 hectares in the state agriculture area of the district, from which a total of 80 quintal  seeds
                     have been obtained. Similarly, in the year 2022-23, 180 quintal certified seeds of Buddha Rice (Kalanamak Rice) were produced on 10 hectare area in the
-                    state agriculture sector. The distribution of this seed has been made available to the farmers on subsidy through the State Agricultural
-                    Seed Stores.This year's Kalanamak, other progressive varieties like KalanamakKiran, APJ.106, APJ.03, Dwarf Kalanamak, were developed as
+                    state agriculture sector. The distribution of this seed has been made available to the farmers on subsidy through the state agricultural
+                    seed stores.This year's Kalanamak, other progressive varieties like Kalanamak Kiran, APJ.106, APJ.03, Dwarf Kalanamak, were developed as
                     trials in different fields. This year, Pusa Narendra-1638 and Pusa Narendra-1652 varieties have been developed with the joint efforts of
-                    the scientists of the Indian Council of Agricultural Research, New Delhi and Acharya NarendraDev Agricultural University, KumarganjFaizabad,
+                    the scientists of the Indian Council of Agricultural Research, New Delhi and Acharya Narendra Dev Agricultural University, Kumarganj Faizabad,
                     which have been tested by KrishiVigyan Kendra,Sohna for various farmers of the district. Trial has been done in the field.Their productivity
                     is 38-42 quintals per hectare, which is 2.5 times more than the traditional Buddha Rice (Kalanamak Rice) species. To increase the area under Buddha Rice (Kalanamak Rice) in Kharif
                     this year, a door-to-door survey has been done by the technical staff of the Agriculture Department from February 01.
                 </p>
                 <p className='pt-1 md:text-lg'>
-                    In order to increase the area productivity of Kalanamak rice, the Department organized
-                    KisanPathshala in 256 Gram Panchayatsin Kharif and Rabi season in which 23040 farmers participated.
-                    In this sequence, 28 development block level farmers' seminars and fairs, 02 district level seminars
-                    and fairs and farmers' scientific dialogues were organized. In which 4493 farmers participated.
+                    In order to increase the area & productivity of Kalanamak rice, the department organised
+                    Kisan Pathshala in 256 Gram Panchayats in Kharif and Rabi season in which thousands of farmer farmers participated.
+                    In this sequence, 28  block level farmers' seminars and fairs, 02 district level seminars
+                    and fairs and farmers' scientist  dialogues are organized. In which any farmers participate.
                     In the year 2020-21, from March 13 to March 15, 2021and in the year 2022-23,on November 20-24, 2021,
-                    Kalanamak Festival was organized, in which about 22000 farmers participated.
+                    Kalanamak Mahotsav  was organized, in which about 22000 farmers participated.
                 </p>
             </div>
 

@@ -41,8 +41,8 @@ const Home = () => {
           <p className='py-3 md:text-lg md:text-center text-left'>
             Buddha Rice (Kalanamak Rice) is in cultivation since the Buddhist period (600 BC). The grains were
             found from excavation of Aligarhwa (district Siddharthnagar, Uttar Pradesh, India),
-            located at Nepal border. Aligarhwa has been identified as the real kapilvastu, the
-            Kingdom of king Shuddodhan, father of Lord Buddha. Shudedodhan, as the name
+            located at Nepal border. Aligarhwa has been identified as the real Kapilvastu, the
+            kingdom of King Suddhodana, father of Lord Buddha. Suddhodana, as the name
             suggests, means pure rice. Aligarhwa in the foothills of the Himalayas is considered the
             rice bowl. During excavation carbonized rice grains resembling Buddha Rice (Kalanamak Rice) were
             recovered from one of the rooms, which was supposed to be the kitchen store.
@@ -64,52 +64,21 @@ const Home = () => {
             </NavLink>*/}
          {/* </div>
         </div>*/}
-      <div className='flex lg:flex-row flex-col-reverse items-center lg:space-x-10 my-2 md:my-4 '> 
-        <div className='lg:px-32 md:px-12 sm:px-5 px-3 ' >
-          <div className='my-2 md:my-4 md:text-lg'>
-            <h2 className='font-semibold md:text-[28px]  text-2xl py-1 border-b-[#af7501] border-b text-[#0f5f17]'>
-              Inspection Body
-            </h2>
-            <p className='pt-1 '>
-              The inspection body consisting of the following members has been constituted.
-            </p>
+      <div className='flex lg:flex-row flex-col-reverse items-center my-2 md:my-4 justify-center'> 
+    <div className='flex lg:flex-row flex-col items-center my-2 md:my-4 justify-center'>
+        <div className='flex flex-col items-center w-full md:w-[30%] text-center md:text-xl font-semibold'>
+            <img src={img11} className='lg:w-[70%] w-[80%] pt-2 lg:pt-0 ' alt="DM Siddharthnagar" />
+            <label className='mt-0'>Dr. Rajaganapathy R, IAS</label>
+            <label className='mt-0'>DM Siddharthnagar</label>
+        </div>
+        <div className='flex flex-col items-center w-full md:w-[30%] text-center md:text-xl font-semibold'>
+            <img src={img10} className='lg:w-[70%] w-[80%] pt-2 lg:pt-0 ' alt="CDO Siddharthnagar" />
+            <label className='mt-0'>Shri Jayendra Kumar</label>
+            <label className='mt-0'>CDO Siddharthnagar</label>
+        </div>
+    </div>
+</div>
 
-            <li className='pt-1'>
-              Department of Plant Breeding and / or Genetics, Indian Agriculture Research Institute, New Delhi.
-            </li>
-            <li className='md:pt-1'>
-              Shoharatgarh Environmental Society Shoratgarh, Siddharth Nagar <span className='font-semibold'>(Prime Minister Excellence award for Kalanamak)</span>.
-            </li>
-            <li className='md:pt-1'>
-              Narendra Dev Agriculture University, Kumarganj, Faizabad.
-            </li>
-            <li className='md:pt-1'>
-              Deputy Director of Agriculture, Siddharth Nagar.
-            </li>
-            <li className='md:pt-1'
-            >Gram Pradhan, Niyao, Shoratgarh, Siddharth Nagar <span className='font-semibold'>(Prime Minister Excellence award for Kalanamak)</span>.
-            </li>
-            <li className='md:pt-1'>
-              Kalanamak Cented Rice Production And Conservation Society Siddharth Nagar.
-            </li>
-            <li className='md:pt-1'>
-              Krishi Vigyan Kendra, Sohana, Siddharth Nagar
-            </li>
-          </div>
-        </div>
-        <div className='flex lg:flex-row flex-col items-center lg:space-x-10 my-2 md:my-4 '>
-          <div className='flex flex-col items-center w-full md:w-[50%] text-center md:text-xl font-semibold'>
-                <img src={img11} className='lg:w-[100%] w-[80%] pt-2 lg:pt-0 img_right' alt="DM Siddharthnagar" />
-                <label className='mt-0'>Dr. Rajaganapathy R, IAS</label>
-                <label className='mt-0'>DM Siddharthnagar</label>
-          </div>
-          <div className='flex flex-col items-center w-full md:w-[50%] text-center md:text-xl font-semibold'>
-                <img src={img10} className='lg:w-[100%] w-[80%] pt-2 lg:pt-0 img_right' alt="CDO Siddharthnagar" />
-                <label className='mt-0'>Shri Jayendra Kumar</label>
-                <label className='mt-0'>CDO Siddharthnagar</label>
-          </div>
-        </div>
-      </div>
       </div>
       
     </div>

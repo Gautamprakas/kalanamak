@@ -52,7 +52,7 @@ const Feature = () => {
               <div className="mb-4">
                 <h3 className="text-lg font-semibold">4. बुद्धा राइस कालानमक चावल उत्पाद की गुणवत्ता (Quality of BuddhaRice (Kalanamak Rice)  Production):</h3>
                 <p className="text-base   my-2 mx-4">
-                 सरकार और कृषि विभाग की ओर से न्यूट्री हैदराबाद संस्था द्वारा बुद्धा राइस (कलानमक चावल) की गुणवत्ता का परीक्षण किया गया है, जिसमें जिंक 21.5% और आयरन 12% पाया गया है। जबकि सामान्य चावल में आयरन 6% और जिंक 5% पाया जाता है। इसके अलावा इसमें निम्नलिखित पोषक तत्व भी पाए जाते हैं:</p>
+                 सरकार और कृषि विभाग की ओर से न्यूट्री हैदराबाद संस्था द्वारा बुद्धा राइस (कालानमक चावल) की गुणवत्ता का परीक्षण किया गया है, जिसमें जिंक 21.5% और आयरन 12% पाया गया है। जबकि सामान्य चावल में आयरन 6% और जिंक 5% पाया जाता है। इसके अलावा इसमें निम्नलिखित पोषक तत्व भी पाए जाते हैं:</p>
                 <p className="text-base  my-2 mx-4">
                   The quality of Buddha Rice (Kalanamak Rice) has been tested by the Nutri Hyderabad organization on behalf of the government and the agriculture department, in which zinc is found to be 21.5% and iron to be 12%. Whereas in normal rice, iron is found to be 6% and zinc to be 5%. Apart from this, the following nutrients are also found in it:
                 </p>
@@ -91,7 +91,7 @@ const Feature = () => {
                        
                     </table>
                     <p className='pt-1 md:text-lg my-2'>
-                   बुद्धा राइस (कलानमक चावल) शुगर फ्री होने के कारण शुगर के मरीज भी खा सकते हैं और अन्य तत्वों की मौजूदगी के कारण यह सेहत के लिए रामबाण है।
+                   बुद्धा राइस (कालानमक चावल) शुगर फ्री होने के कारण शुगर के मरीज भी खा सकते हैं और अन्य तत्वों की मौजूदगी के कारण यह सेहत के लिए रामबाण है।
                    </p>
                     <p className='pt-1 md:text-lg my-2'>
                    Since Buddha Rice (Kalanamak Rice) is sugar-free, even sugar patients can eat and due to the presence of other elements, it is a panacea for health.
